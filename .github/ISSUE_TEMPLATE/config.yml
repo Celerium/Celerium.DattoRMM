@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Project Documentation
+    url: https://celerium.github.io/Celerium.DattoRMM/
+    about: Read through the generated documentation
+  - name: Vendor Documentation
+    url: https://api.DattoRMM.com/developer
+    about: Read through the vendors documentation
