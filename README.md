@@ -57,7 +57,7 @@ DattoRMM features a REST API that makes use of common HTTP request methods. In o
 
 Additionally, PowerShell's `verb-noun` nomenclature is respected. Each noun is prefixed with `DattoRMM` in an attempt to prevent naming problems.
 
-For example, one might access the /users/ API endpoint by running the following PowerShell command with the appropriate parameters:
+For example, one might access the /Account or /Site API endpoints by running the following PowerShell command with the appropriate parameters:
 
 ```posh
 Get-DattoRMMAccount
@@ -213,8 +213,8 @@ Distributed under the MIT license. See [LICENSE](https://github.com/Celerium/Cel
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[Az_Pipeline-shield]:               https://img.shields.io/azure-devops/build/AzCelerium/Celerium.DattoRMM/12?style=for-the-badge&label=DevOps_Build
-[Az_Pipeline-url]:                  https://dev.azure.com/AzCelerium/Celerium.DattoRMM/_build?definitionId=12
+[Az_Pipeline-shield]:               https://img.shields.io/azure-devops/build/AzCelerium/Celerium.DattoRMM/15?style=for-the-badge&label=DevOps_Build
+[Az_Pipeline-url]:                  https://dev.azure.com/AzCelerium/Celerium.DattoRMM/_build?definitionId=15
 
 [GitHub_Pages-shield]:              https://img.shields.io/github/actions/workflow/status/celerium/Celerium.DattoRMM/pages%2Fpages-build-deployment?style=for-the-badge&label=GitHub%20Pages
 [GitHub_Pages-url]:                 https://github.com/Celerium/Celerium.DattoRMM/actions/workflows/pages/pages-build-deployment
