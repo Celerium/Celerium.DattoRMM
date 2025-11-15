@@ -1,8 +1,8 @@
 ---
 external help file: Celerium.DattoRMM-help.xml
-grand_parent: Audit
+grand_parent: Alert
 Module Name: Celerium.DattoRMM
-online version: https://celerium.github.io/Celerium.DattoRMM/site/Audit/Get-DattoRMMAlert.html
+online version: https://celerium.github.io/Celerium.DattoRMM/site/Alert/Get-DattoRMMAlert.html
 parent: GET
 schema: 2.0.0
 title: Get-DattoRMMAlert

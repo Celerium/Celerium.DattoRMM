@@ -56,7 +56,7 @@ Fetches the account variables
 ### [Get-DattoRMMActivityLog](site/Activity-Logs/Get-DattoRMMActivityLog.md)
 Fetches the activity logs
 
-### [Get-DattoRMMAlert](site/Audit/Get-DattoRMMAlert.md)
+### [Get-DattoRMMAlert](site/Alert/Get-DattoRMMAlert.md)
 Fetches data of the alert identified by the given alert Uid
 
 ### [Get-DattoRMMAPIKey](site/Internal/Get-DattoRMMAPIKey.md)
