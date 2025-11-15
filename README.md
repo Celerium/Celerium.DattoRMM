@@ -139,7 +139,7 @@ Calling an API resource is as simple as running `Get-DattoRMM<resourceName>`
 |Account      |/v2/account/alerts/open                     |GET   |Get-DattoRMMAccountAlert          |
 |Activity-Logs|/v2/activity-logs                           |GET   |Get-DattoRMMActivityLog           |
 |Alert        |/v2/alert/{alertUid}/resolve                |POST  |Set-DattoRMMAlert                 |
-|Audit        |/v2/alert/{alertUid}                        |GET   |Get-DattoRMMAlert                 |
+|Alert        |/v2/alert/{alertUid}                        |GET   |Get-DattoRMMAlert                 |
 |Audit        |/v2/audit/printer/{deviceUid}               |GET   |Get-DattoRMMAuditPrinter          |
 |Audit        |/v2/audit/esxihost/{deviceUid}              |GET   |Get-DattoRMMAuditESXI             |
 |Audit        |/v2/audit/device/{deviceUid}                |GET   |Get-DattoRMMAuditDevice           |

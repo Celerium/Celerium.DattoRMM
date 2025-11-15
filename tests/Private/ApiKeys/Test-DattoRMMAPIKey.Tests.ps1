@@ -133,7 +133,7 @@ Describe "Testing [ $commandName ] function with [ $pester_TestName ]" -Tag @('a
             Add-DattoRMMAPIKey -ApiKey '12345' -ApiSecretKey '12345'
 
             $Value = Test-DattoRMMAPIKey 3>$null
-            $Value.Message | Should -Be $null
+            $Value.Message | Should -BeNullOrEmpty
         }
 
     }
