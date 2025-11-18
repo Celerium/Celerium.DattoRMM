@@ -69,79 +69,10 @@
     # FormatsToProcess = @()
 
     # Modules to import as nested modules of the module specified in RootModule/ModuleToProcess
-    NestedModules = 'Private/ApiCalls/ConvertTo-DattoRMMQueryString.ps1',
-                    'Private/ApiCalls/Invoke-DattoRMMRequest.ps1',
-
-                    'Private/ApiKeys/Add-DattoRMMAPIKey.ps1',
-                    'Private/ApiKeys/Get-DattoRMMAccessToken.ps1',
-                    'Private/ApiKeys/Get-DattoRMMAPIKey.ps1',
-                    'Private/ApiKeys/Remove-DattoRMMAPIKey.ps1',
-                    'Private/ApiKeys/Request-DattoRMMAccessToken.ps1',
-                    'Private/ApiKeys/Test-DattoRMMAPIKey.ps1',
-
-                    'Private/BaseUri/Add-DattoRMMBaseURI.ps1',
-                    'Private/BaseUri/Get-DattoRMMBaseURI.ps1',
-                    'Private/BaseUri/Remove-DattoRMMBaseURI.ps1',
-
-                    'Private/ModuleSettings/Export-DattoRMMModuleSettings.ps1',
-                    'Private/ModuleSettings/Get-DattoRMMModuleSettings.ps1',
-                    'Private/ModuleSettings/Import-DattoRMMModuleSettings.ps1',
-                    'Private/ModuleSettings/Initialize-DattoRMMModuleSettings.ps1',
-                    'Private/ModuleSettings/Remove-DattoRMMModuleSettings.ps1',
-
-                    'Public/Account/Get-DattoRMMAccount.ps1',
-                    'Public/Account/Get-DattoRMMAccountAlert.ps1',
-                    'Public/Account/Get-DattoRMMAccountComponent.ps1',
-                    'Public/Account/Get-DattoRMMAccountDevice.ps1',
-                    'Public/Account/Get-DattoRMMAccountDnetSiteMapping.ps1',
-                    'Public/Account/Get-DattoRMMAccountSite.ps1',
-                    'Public/Account/Get-DattoRMMAccountUser.ps1',
-                    'Public/Account/Get-DattoRMMAccountVariable.ps1',
-                    'Public/Account/New-DattoRMMAccountVariable.ps1',
-                    'Public/Account/Remove-DattoRMMAccountVariable.ps1',
-                    'Public/Account/Set-DattoRMMAccountVariable.ps1',
-
-                    'Public/Activity-Logs/Get-DattoRMMActivityLog.ps1',
-
-                    'Public/Alert/Get-DattoRMMAlert.ps1',
-                    'Public/Alert/Set-DattoRMMAlert.ps1',
-
-                    'Public/Audit/Get-DattoRMMAuditDevice.ps1',
-                    'Public/Audit/Get-DattoRMMAuditESXI.ps1',
-                    'Public/Audit/Get-DattoRMMAuditPrint.ps1',
-
-                    'Public/Device/Get-DattoRMMDevice.ps1',
-                    'Public/Device/Get-DattoRMMDeviceAlert.ps1',
-                    'Public/Device/Move-DattoRMMDevice.ps1',
-                    'Public/Device/New-DattoRMMDeviceJob.ps1',
-                    'Public/Device/Set-DattoRMMDeviceUDF.ps1',
-                    'Public/Device/Set-DattoRMMDeviceWarranty.ps1',
-
-                    'Public/Filter/Get-DattoRMMFilter.ps1',
-
-                    'Public/Job/Get-DattoRMMJob.ps1',
-                    'Public/Job/Get-DattoRMMJobResult.ps1',
-
-                    'Public/Site/Get-DattoRMMSite.ps1',
-                    'Public/Site/Get-DattoRMMSiteAlert.ps1',
-                    'Public/Site/Get-DattoRMMSiteDevice.ps1',
-                    'Public/Site/Get-DattoRMMSiteFilter.ps1',
-                    'Public/Site/Get-DattoRMMSiteSetting.ps1',
-                    'Public/Site/Get-DattoRMMSiteVariable.ps1',
-                    'Public/Site/New-DattoRMMSite.ps1',
-                    'Public/Site/New-DattoRMMSiteVariable.ps1',
-                    'Public/Site/Remove-DattoRMMSiteProxy.ps1',
-                    'Public/Site/Remove-DattoRMMSiteVariable.ps1',
-                    'Public/Site/Set-DattoRMMSite.ps1',
-                    'Public/Site/Set-DattoRMMSiteProxy.ps1',
-                    'Public/Site/Set-DattoRMMSiteVariable.ps1',
-
-                    'Public/System/Get-DattoRMMSystem.ps1',
-
-                    'Public/User/Reset-DattoRMMUserApiKey.ps1'
+    # NestedModules = @()
 
     # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
-    FunctionsToExport = '*'
+    FunctionsToExport = @('ConvertTo-DattoRMMQueryString','Invoke-DattoRMMRequest','Add-DattoRMMAPIKey','Get-DattoRMMAccessToken','Get-DattoRMMAPIKey','Remove-DattoRMMAPIKey','Request-DattoRMMAccessToken','Test-DattoRMMAPIKey','Add-DattoRMMBaseURI','Get-DattoRMMBaseURI','Remove-DattoRMMBaseURI','Export-DattoRMMModuleSettings','Get-DattoRMMModuleSettings','Import-DattoRMMModuleSettings','Initialize-DattoRMMModuleSettings','Remove-DattoRMMModuleSettings','Get-DattoRMMAccount','Get-DattoRMMAccountAlert','Get-DattoRMMAccountComponent','Get-DattoRMMAccountDevice','Get-DattoRMMAccountDnetSiteMapping','Get-DattoRMMAccountSite','Get-DattoRMMAccountUser','Get-DattoRMMAccountVariable','New-DattoRMMAccountVariable','Remove-DattoRMMAccountVariable','Set-DattoRMMAccountVariable','Get-DattoRMMActivityLog','Get-DattoRMMAlert','Set-DattoRMMAlert','Get-DattoRMMAuditDevice','Get-DattoRMMAuditESXI','Get-DattoRMMAuditPrint','Get-DattoRMMDevice','Get-DattoRMMDeviceAlert','Move-DattoRMMDevice','New-DattoRMMDeviceJob','Set-DattoRMMDeviceUDF','Set-DattoRMMDeviceWarranty','Get-DattoRMMFilter','Get-DattoRMMJob','Get-DattoRMMJobResult','Get-DattoRMMSite','Get-DattoRMMSiteAlert','Get-DattoRMMSiteDevice','Get-DattoRMMSiteFilter','Get-DattoRMMSiteSetting','Get-DattoRMMSiteVariable','New-DattoRMMSite','New-DattoRMMSiteVariable','Remove-DattoRMMSiteProxy','Remove-DattoRMMSiteVariable','Set-DattoRMMSite','Set-DattoRMMSiteProxy','Set-DattoRMMSiteVariable','Get-DattoRMMSystem','Reset-DattoRMMUserApiKey')
 
     # Cmdlets to export from this module
     CmdletsToExport = @()
@@ -150,7 +81,7 @@
     VariablesToExport = '*'
 
     # Aliases to export from this module
-    AliasesToExport = '*'
+    AliasesToExport = @('Set-DattoRMMAPIKey','Set-DattoRMMAccessToken','Set-DattoRMMBaseURI')
 
     # List of all modules packaged with this module
     # ModuleList = @()
@@ -197,3 +128,4 @@
     # DefaultCommandPrefix = ''
 
 }
+
