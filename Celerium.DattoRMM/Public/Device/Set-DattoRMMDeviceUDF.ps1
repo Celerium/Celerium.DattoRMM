@@ -20,7 +20,7 @@ function Set-DattoRMMDeviceUDF {
         Set-DattoRMMDeviceUDF -DeviceUID <String> -udf1..100 <String> [-WhatIf] [-Confirm] [<CommonParameters>]
 
     .PARAMETER DeviceUID
-        The UID of the device to create the quick job on
+        The UID of the device
 
     .PARAMETER Data
         JSON body
