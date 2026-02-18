@@ -18,7 +18,7 @@
     # -- MINOR version when you add functionality in a backwards-compatible manner, and
     # -- PATCH version when you make backwards-compatible bug fixes.
 
-    ModuleVersion = '1.0.1'
+    ModuleVersion = '1.1.0'
 
     # ID used to uniquely identify this module
     GUID = 'c2d6db6b-874b-49ec-b9d9-ec5db3f141a9'
@@ -163,7 +163,7 @@
         PSData = @{
 
             # Tags applied to this module. These help with module discovery in online galleries.
-            Tags = @('DattoRMM', 'Kaseya', 'API', 'PowerShell', 'Windows', 'MacOS', 'Linux', 'PSEdition_Desktop', 'PSEdition_Core', 'Celerium')
+            Tags = @('Datto','RMM','DattoRMM', 'Kaseya', 'API', 'PowerShell', 'Windows', 'MacOS', 'Linux', 'PSEdition_Desktop', 'PSEdition_Core', 'Celerium')
 
             # A URL to the license for this module.
             LicenseUri = 'https://github.com/Celerium/Celerium.DattoRMM/blob/master/LICENSE'

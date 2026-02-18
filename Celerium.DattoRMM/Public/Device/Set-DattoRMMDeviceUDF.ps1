@@ -46,6 +46,8 @@ function Set-DattoRMMDeviceUDF {
     .LINK
         https://celerium.github.io/Celerium.DattoRMM/site/Device/Set-DattoRMMDeviceUDF.html
 
+    .LINK
+        https://zinfandel-api.centrastage.net/api/swagger-ui/index.html
 #>
 
     [CmdletBinding(DefaultParameterSetName = 'UpdateData', SupportsShouldProcess, ConfirmImpact = 'Medium')]

@@ -45,6 +45,8 @@ function Set-DattoRMMDeviceWarranty {
     .LINK
         https://celerium.github.io/Celerium.DattoRMM/site/Device/Set-DattoRMMDeviceWarranty.html
 
+    .LINK
+        https://zinfandel-api.centrastage.net/api/swagger-ui/index.html
 #>
 
     [CmdletBinding(DefaultParameterSetName = 'UpdateData', SupportsShouldProcess, ConfirmImpact = 'Medium')]

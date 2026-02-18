@@ -37,6 +37,8 @@ function Get-DattoRMMAccountDnetSiteMapping {
     .LINK
         https://celerium.github.io/Celerium.DattoRMM/site/Account/Get-DattoRMMAccountDnetSiteMapping.html
 
+    .LINK
+        https://zinfandel-api.centrastage.net/api/swagger-ui/index.html
 #>
 
     [CmdletBinding(DefaultParameterSetName = 'Index')]

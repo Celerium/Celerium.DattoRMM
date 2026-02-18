@@ -60,6 +60,8 @@ function Get-DattoRMMAuditDevice {
     .LINK
         https://celerium.github.io/Celerium.DattoRMM/site/Audit/Get-DattoRMMAuditDevice.html
 
+    .LINK
+        https://zinfandel-api.centrastage.net/api/swagger-ui/index.html
 #>
 
     [CmdletBinding(DefaultParameterSetName = 'DeviceOnly')]

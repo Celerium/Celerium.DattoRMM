@@ -46,6 +46,8 @@ function Get-DattoRMMSiteFilter {
     .LINK
         https://celerium.github.io/Celerium.DattoRMM/site/Site/Get-DattoRMMSiteFilter.html
 
+    .LINK
+        https://zinfandel-api.centrastage.net/api/swagger-ui/index.html
 #>
 
     [CmdletBinding(DefaultParameterSetName = 'Index')]

@@ -28,6 +28,8 @@ function Get-DattoRMMAuditESXI {
     .LINK
         https://celerium.github.io/Celerium.DattoRMM/site/Audit/Get-DattoRMMAuditESXI.html
 
+    .LINK
+        https://zinfandel-api.centrastage.net/api/swagger-ui/index.html
 #>
 
     [CmdletBinding(DefaultParameterSetName = 'Index')]

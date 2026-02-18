@@ -42,6 +42,8 @@ function Set-DattoRMMSiteVariable {
     .LINK
         https://celerium.github.io/Celerium.DattoRMM/site/Site/Set-DattoRMMSiteVariable.html
 
+    .LINK
+        https://zinfandel-api.centrastage.net/api/swagger-ui/index.html
 #>
 
     [CmdletBinding(DefaultParameterSetName = 'UpdateData', SupportsShouldProcess, ConfirmImpact = 'Medium')]

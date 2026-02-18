@@ -60,10 +60,11 @@ function Test-DattoRMMAPIKey {
             $Headers = @{ 'Authorization' = "Bearer $($DattoRMMModuleAccessToken.access_token)" }
 
             $Parameters = @{
-                'Method'    = 'GET'
-                'Uri'       = $BaseUri + $DattoRMMModuleBaseApiUri + $ResourceURI
-                'Headers'   = $Headers
-                'UserAgent' = $DattoRMMModuleUserAgent
+                'Method'        = 'GET'
+                'Uri'           = $BaseUri + $DattoRMMModuleBaseApiUri + $ResourceURI
+                'Headers'       = $Headers
+                'UserAgent'     = $DattoRMMModuleUserAgent
+                UseBasicParsing = $true
             }
 
             $rest_output = Invoke-WebRequest @Parameters -ErrorAction Stop

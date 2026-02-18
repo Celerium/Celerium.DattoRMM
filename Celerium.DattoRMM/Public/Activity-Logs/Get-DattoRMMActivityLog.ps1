@@ -99,6 +99,8 @@ function Get-DattoRMMActivityLog {
     .LINK
         https://celerium.github.io/Celerium.DattoRMM/site/Activity-Logs/Get-DattoRMMActivityLog.html
 
+    .LINK
+        https://zinfandel-api.centrastage.net/api/swagger-ui/index.html
 #>
 
     [CmdletBinding(DefaultParameterSetName = 'Index')]

@@ -27,6 +27,8 @@ function New-DattoRMMDeviceJob {
     .LINK
         https://celerium.github.io/Celerium.DattoRMM/site/Device/New-DattoRMMDeviceJob.html
 
+    .LINK
+        https://zinfandel-api.centrastage.net/api/swagger-ui/index.html
 #>
 
     [CmdletBinding(DefaultParameterSetName = 'Create', SupportsShouldProcess, ConfirmImpact = 'Medium')]

@@ -26,6 +26,8 @@ function Get-DattoRMMAlert {
     .LINK
         https://celerium.github.io/Celerium.DattoRMM/site/Alert/Get-DattoRMMAlert.html
 
+    .LINK
+        https://zinfandel-api.centrastage.net/api/swagger-ui/index.html
 #>
 
     [CmdletBinding(DefaultParameterSetName = 'Index')]

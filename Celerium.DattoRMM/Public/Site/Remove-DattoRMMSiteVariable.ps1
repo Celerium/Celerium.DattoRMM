@@ -24,6 +24,8 @@ function Remove-DattoRMMSiteVariable {
     .LINK
         https://celerium.github.io/Celerium.DattoRMM/site/Site/Remove-DattoRMMSiteVariable.html
 
+    .LINK
+        https://zinfandel-api.centrastage.net/api/swagger-ui/index.html
 #>
 
     [CmdletBinding(DefaultParameterSetName = 'Delete', SupportsShouldProcess, ConfirmImpact = 'High')]

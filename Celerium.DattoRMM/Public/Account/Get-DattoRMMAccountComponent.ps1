@@ -35,6 +35,8 @@ function Get-DattoRMMAccountComponent {
     .LINK
         https://celerium.github.io/Celerium.DattoRMM/site/Account/Get-DattoRMMAccountComponent.html
 
+    .LINK
+        https://zinfandel-api.centrastage.net/api/swagger-ui/index.html
 #>
 
     [CmdletBinding(DefaultParameterSetName = 'Index')]

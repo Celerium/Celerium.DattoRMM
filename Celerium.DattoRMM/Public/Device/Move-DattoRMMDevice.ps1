@@ -24,6 +24,8 @@ function Move-DattoRMMDevice {
     .LINK
         https://celerium.github.io/Celerium.DattoRMM/site/Device/Move-DattoRMMDevice.html
 
+    .LINK
+        https://zinfandel-api.centrastage.net/api/swagger-ui/index.html
 #>
 
     [CmdletBinding(DefaultParameterSetName = 'Update', SupportsShouldProcess, ConfirmImpact = 'Medium')]

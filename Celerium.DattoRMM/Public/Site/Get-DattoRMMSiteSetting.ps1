@@ -26,6 +26,8 @@ function Get-DattoRMMSiteSetting {
     .LINK
         https://celerium.github.io/Celerium.DattoRMM/site/Site/Get-DattoRMMSiteSetting.html
 
+    .LINK
+        https://zinfandel-api.centrastage.net/api/swagger-ui/index.html
 #>
 
     [CmdletBinding(DefaultParameterSetName = 'Index')]

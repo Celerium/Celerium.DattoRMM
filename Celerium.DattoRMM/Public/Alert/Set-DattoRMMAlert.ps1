@@ -20,6 +20,8 @@ function Set-DattoRMMAlert {
     .LINK
         https://celerium.github.io/Celerium.DattoRMM/site/Alert/Set-DattoRMMAlert.html
 
+    .LINK
+        https://zinfandel-api.centrastage.net/api/swagger-ui/index.html
 #>
 
     [CmdletBinding(DefaultParameterSetName = 'Update', SupportsShouldProcess, ConfirmImpact = 'Medium')]

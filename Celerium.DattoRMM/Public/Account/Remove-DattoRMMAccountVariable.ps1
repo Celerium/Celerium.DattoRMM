@@ -20,6 +20,8 @@ function Remove-DattoRMMAccountVariable {
     .LINK
         https://celerium.github.io/Celerium.DattoRMM/site/Account/Remove-DattoRMMAccountVariable.html
 
+    .LINK
+        https://zinfandel-api.centrastage.net/api/swagger-ui/index.html
 #>
 
     [CmdletBinding(DefaultParameterSetName = 'Delete', SupportsShouldProcess, ConfirmImpact = 'High')]

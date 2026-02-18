@@ -49,6 +49,8 @@ function Get-DattoRMMJob {
     .LINK
         https://celerium.github.io/Celerium.DattoRMM/site/Job/Get-DattoRMMJob.html
 
+    .LINK
+        https://zinfandel-api.centrastage.net/api/swagger-ui/index.html
 #>
 
     [CmdletBinding(DefaultParameterSetName = 'JobOnly')]
