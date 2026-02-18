@@ -82,7 +82,7 @@ Set the defined devices UDF's with the structured JSON object
 ## PARAMETERS
 
 ### -DeviceUID
-The UID of the device to create the quick job on
+The UID of the device
 
 ```yaml
 Type: String
@@ -1658,4 +1658,6 @@ N/A
 ## RELATED LINKS
 
 [https://celerium.github.io/Celerium.DattoRMM/site/Device/Set-DattoRMMDeviceUDF.html](https://celerium.github.io/Celerium.DattoRMM/site/Device/Set-DattoRMMDeviceUDF.html)
+
+[https://zinfandel-api.centrastage.net/api/swagger-ui/index.html](https://zinfandel-api.centrastage.net/api/swagger-ui/index.html)
 

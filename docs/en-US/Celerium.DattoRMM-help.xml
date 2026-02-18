@@ -39,6 +39,10 @@
         <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/Account/Get-DattoRMMAccount.html</maml:linkText>
         <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/Account/Get-DattoRMMAccount.html</maml:uri>
       </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
+        <maml:uri>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:uri>
+      </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
   <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
@@ -221,6 +225,10 @@
         <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/Account/Get-DattoRMMAccountAlert.html</maml:linkText>
         <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/Account/Get-DattoRMMAccountAlert.html</maml:uri>
       </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
+        <maml:uri>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:uri>
+      </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
   <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
@@ -344,6 +352,10 @@
       <maml:navigationLink>
         <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/Account/Get-DattoRMMAccountComponent.html</maml:linkText>
         <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/Account/Get-DattoRMMAccountComponent.html</maml:uri>
+      </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
+        <maml:uri>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:uri>
       </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
@@ -599,6 +611,10 @@
         <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/Account/Get-DattoRMMAccountDevice.html</maml:linkText>
         <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/Account/Get-DattoRMMAccountDevice.html</maml:uri>
       </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
+        <maml:uri>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:uri>
+      </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
   <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
@@ -722,6 +738,10 @@
       <maml:navigationLink>
         <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/Account/Get-DattoRMMAccountDnetSiteMapping.html</maml:linkText>
         <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/Account/Get-DattoRMMAccountDnetSiteMapping.html</maml:uri>
+      </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
+        <maml:uri>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:uri>
       </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
@@ -873,6 +893,10 @@
         <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/Account/Get-DattoRMMAccountSite.html</maml:linkText>
         <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/Account/Get-DattoRMMAccountSite.html</maml:uri>
       </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
+        <maml:uri>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:uri>
+      </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
   <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
@@ -997,6 +1021,10 @@
         <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/Account/Get-DattoRMMAccountUser.html</maml:linkText>
         <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/Account/Get-DattoRMMAccountUser.html</maml:uri>
       </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
+        <maml:uri>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:uri>
+      </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
   <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
@@ -1120,6 +1148,10 @@
       <maml:navigationLink>
         <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/Account/Get-DattoRMMAccountVariable.html</maml:linkText>
         <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/Account/Get-DattoRMMAccountVariable.html</maml:uri>
+      </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
+        <maml:uri>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:uri>
       </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
@@ -1338,6 +1370,10 @@
         <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/Account/New-DattoRMMAccountVariable.html</maml:linkText>
         <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/Account/New-DattoRMMAccountVariable.html</maml:uri>
       </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
+        <maml:uri>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:uri>
+      </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
   <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
@@ -1449,6 +1485,10 @@
       <maml:navigationLink>
         <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/Account/Remove-DattoRMMAccountVariable.html</maml:linkText>
         <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/Account/Remove-DattoRMMAccountVariable.html</maml:uri>
+      </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
+        <maml:uri>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:uri>
       </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
@@ -1679,6 +1719,10 @@
       <maml:navigationLink>
         <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/Account/Set-DattoRMMAccountVariable.html</maml:linkText>
         <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/Account/Set-DattoRMMAccountVariable.html</maml:uri>
+      </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
+        <maml:uri>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:uri>
       </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
@@ -2045,6 +2089,10 @@
         <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/Activity-Logs/Get-DattoRMMActivityLog.html</maml:linkText>
         <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/Activity-Logs/Get-DattoRMMActivityLog.html</maml:uri>
       </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
+        <maml:uri>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:uri>
+      </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
   <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
@@ -2117,6 +2165,10 @@
       <maml:navigationLink>
         <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/Alert/Get-DattoRMMAlert.html</maml:linkText>
         <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/Alert/Get-DattoRMMAlert.html</maml:uri>
+      </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
+        <maml:uri>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:uri>
       </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
@@ -2229,6 +2281,10 @@
       <maml:navigationLink>
         <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/Alert/Set-DattoRMMAlert.html</maml:linkText>
         <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/Alert/Set-DattoRMMAlert.html</maml:uri>
+      </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
+        <maml:uri>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:uri>
       </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
@@ -2458,6 +2514,10 @@
         <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/Audit/Get-DattoRMMAuditDevice.html</maml:linkText>
         <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/Audit/Get-DattoRMMAuditDevice.html</maml:uri>
       </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
+        <maml:uri>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:uri>
+      </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
   <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
@@ -2532,6 +2592,10 @@
         <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/Audit/Get-DattoRMMAuditESXI.html</maml:linkText>
         <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/Audit/Get-DattoRMMAuditESXI.html</maml:uri>
       </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
+        <maml:uri>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:uri>
+      </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
   <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
@@ -2605,6 +2669,10 @@
       <maml:navigationLink>
         <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/Audit/Get-DattoRMMAuditPrinter.html</maml:linkText>
         <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/Audit/Get-DattoRMMAuditPrinter.html</maml:uri>
+      </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
+        <maml:uri>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:uri>
       </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
@@ -2741,6 +2809,10 @@
       <maml:navigationLink>
         <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/Device/Get-DattoRMMDevice.html</maml:linkText>
         <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/Device/Get-DattoRMMDevice.html</maml:uri>
+      </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
+        <maml:uri>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:uri>
       </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
@@ -2946,6 +3018,10 @@
         <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/Device/Get-DattoRMMDeviceAlert.html</maml:linkText>
         <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/Device/Get-DattoRMMDeviceAlert.html</maml:uri>
       </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
+        <maml:uri>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:uri>
+      </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
   <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
@@ -3081,6 +3157,10 @@
       <maml:navigationLink>
         <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/Device/Move-DattoRMMDevice.html</maml:linkText>
         <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/Device/Move-DattoRMMDevice.html</maml:uri>
+      </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
+        <maml:uri>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:uri>
       </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
@@ -3220,6 +3300,10 @@
         <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/Device/New-DattoRMMDeviceJob.html</maml:linkText>
         <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/Device/New-DattoRMMDeviceJob.html</maml:uri>
       </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
+        <maml:uri>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:uri>
+      </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
   <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
@@ -3244,7 +3328,7 @@
         <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>DeviceUID</maml:name>
           <maml:description>
-            <maml:para>The UID of the device to create the quick job on</maml:para>
+            <maml:para>The UID of the device</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -3294,7 +3378,7 @@
         <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>DeviceUID</maml:name>
           <maml:description>
-            <maml:para>The UID of the device to create the quick job on</maml:para>
+            <maml:para>The UID of the device</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -4531,7 +4615,7 @@
       <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>DeviceUID</maml:name>
         <maml:description>
-          <maml:para>The UID of the device to create the quick job on</maml:para>
+          <maml:para>The UID of the device</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
         <dev:type>
@@ -5807,6 +5891,10 @@
         <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/Device/Set-DattoRMMDeviceUDF.html</maml:linkText>
         <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/Device/Set-DattoRMMDeviceUDF.html</maml:uri>
       </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
+        <maml:uri>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:uri>
+      </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
   <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
@@ -6023,6 +6111,10 @@
         <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/Device/Set-DattoRMMDeviceWarranty.html</maml:linkText>
         <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/Device/Set-DattoRMMDeviceWarranty.html</maml:uri>
       </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
+        <maml:uri>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:uri>
+      </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
   <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
@@ -6179,6 +6271,10 @@
       <maml:navigationLink>
         <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/Filter/Get-DattoRMMFilter.html</maml:linkText>
         <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/Filter/Get-DattoRMMFilter.html</maml:uri>
+      </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
+        <maml:uri>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:uri>
       </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
@@ -8012,6 +8108,10 @@
         <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/Job/Get-DattoRMMJob.html</maml:linkText>
         <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/Job/Get-DattoRMMJob.html</maml:uri>
       </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
+        <maml:uri>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:uri>
+      </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
   <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
@@ -8197,6 +8297,10 @@
         <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/Job/Get-DattoRMMJobResult.html</maml:linkText>
         <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/Job/Get-DattoRMMJobResult.html</maml:uri>
       </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
+        <maml:uri>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:uri>
+      </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
   <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
@@ -8269,6 +8373,10 @@
       <maml:navigationLink>
         <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/Site/Get-DattoRMMSite.html</maml:linkText>
         <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/Site/Get-DattoRMMSite.html</maml:uri>
+      </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
+        <maml:uri>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:uri>
       </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
@@ -8474,6 +8582,10 @@
       <maml:navigationLink>
         <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/Site/Get-DattoRMMSiteAlert.html</maml:linkText>
         <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/Site/Get-DattoRMMSiteAlert.html</maml:uri>
+      </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
+        <maml:uri>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:uri>
       </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
@@ -8729,6 +8841,10 @@
         <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/Site/Get-DattoRMMSiteDevice.html</maml:linkText>
         <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/Site/Get-DattoRMMSiteDevice.html</maml:uri>
       </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
+        <maml:uri>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:uri>
+      </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
   <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
@@ -8884,6 +9000,10 @@
         <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/Site/Get-DattoRMMSiteFilter.html</maml:linkText>
         <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/Site/Get-DattoRMMSiteFilter.html</maml:uri>
       </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
+        <maml:uri>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:uri>
+      </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
   <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
@@ -8956,6 +9076,10 @@
       <maml:navigationLink>
         <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/Site/Get-DattoRMMSiteSetting.html</maml:linkText>
         <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/Site/Get-DattoRMMSiteSetting.html</maml:uri>
+      </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
+        <maml:uri>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:uri>
       </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
@@ -9111,6 +9235,10 @@
       <maml:navigationLink>
         <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/Site/Get-DattoRMMSiteVariable.html</maml:linkText>
         <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/Site/Get-DattoRMMSiteVariable.html</maml:uri>
+      </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
+        <maml:uri>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:uri>
       </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
@@ -9355,6 +9483,10 @@
         <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/Site/New-DattoRMMSite.html</maml:linkText>
         <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/Site/New-DattoRMMSite.html</maml:uri>
       </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
+        <maml:uri>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:uri>
+      </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
   <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
@@ -9596,6 +9728,10 @@
         <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/Site/New-DattoRMMSiteVariable.html</maml:linkText>
         <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/Site/New-DattoRMMSiteVariable.html</maml:uri>
       </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
+        <maml:uri>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:uri>
+      </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
   <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
@@ -9707,6 +9843,10 @@
       <maml:navigationLink>
         <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/Site/Remove-DattoRMMSiteProxy.html</maml:linkText>
         <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/Site/Remove-DattoRMMSiteProxy.html</maml:uri>
+      </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
+        <maml:uri>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:uri>
       </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
@@ -9843,6 +9983,10 @@
       <maml:navigationLink>
         <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/Site/Remove-DattoRMMSiteVariable.html</maml:linkText>
         <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/Site/Remove-DattoRMMSiteVariable.html</maml:uri>
+      </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
+        <maml:uri>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:uri>
       </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
@@ -10122,6 +10266,10 @@
       <maml:navigationLink>
         <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/Site/Set-DattoRMMSite.html</maml:linkText>
         <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/Site/Set-DattoRMMSite.html</maml:uri>
+      </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
+        <maml:uri>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:uri>
       </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
@@ -10427,6 +10575,10 @@
         <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/Site/Set-DattoRMMSiteProxy.html</maml:linkText>
         <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/Site/Set-DattoRMMSiteProxy.html</maml:uri>
       </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
+        <maml:uri>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:uri>
+      </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
   <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
@@ -10693,6 +10845,10 @@
         <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/Site/Set-DattoRMMSiteVariable.html</maml:linkText>
         <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/Site/Set-DattoRMMSiteVariable.html</maml:uri>
       </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
+        <maml:uri>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:uri>
+      </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
   <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
@@ -10824,6 +10980,10 @@
         <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/System/Get-DattoRMMSystem.html</maml:linkText>
         <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/System/Get-DattoRMMSystem.html</maml:uri>
       </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
+        <maml:uri>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:uri>
+      </maml:navigationLink>
     </command:relatedLinks>
   </command:command>
   <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
@@ -10912,6 +11072,10 @@
       <maml:navigationLink>
         <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/User/Reset-DattoRMMUserApiKey.html</maml:linkText>
         <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/User/Reset-DattoRMMUserApiKey.html</maml:uri>
+      </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
+        <maml:uri>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:uri>
       </maml:navigationLink>
     </command:relatedLinks>
   </command:command>

@@ -178,7 +178,7 @@ Describe "Testing the [ $buildTarget ] version of [ $moduleName ] with [ $pester
         It "Manifest [ NestedModules ] has valid data" {
             switch ($buildTarget) {
                 'built'     { ($Module.NestedModules.Name).Count | Should -Be 0 }
-                'notBuilt'  { ($Module.NestedModules.Name).Count | Should -Be 57 }
+                'notBuilt'  { ($Module.NestedModules.Name).Count | Should -Be 58 }
             }
         }
 
@@ -202,7 +202,7 @@ Describe "Testing the [ $buildTarget ] version of [ $moduleName ] with [ $pester
         }
 
         It "Manifest [ Tags ] has valid data" {
-            $Module.PrivateData.PSData.Tags | Should -Contain 'DattoRMM'
+            $Module.PrivateData.PSData.Tags | Should -Contain 'Celerium'
             ($Module.PrivateData.PSData.Tags).Count | Should -BeGreaterOrEqual 10
         }
 

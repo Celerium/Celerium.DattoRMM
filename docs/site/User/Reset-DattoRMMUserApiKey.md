@@ -82,3 +82,5 @@ N/A
 
 [https://celerium.github.io/Celerium.DattoRMM/site/User/Reset-DattoRMMUserApiKey.html](https://celerium.github.io/Celerium.DattoRMM/site/User/Reset-DattoRMMUserApiKey.html)
 
+[https://zinfandel-api.centrastage.net/api/swagger-ui/index.html](https://zinfandel-api.centrastage.net/api/swagger-ui/index.html)
+

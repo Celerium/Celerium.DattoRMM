@@ -87,7 +87,6 @@ function Add-DattoRMMBaseURI {
             'Vidal'     { $BaseUri = 'https://vidal-api.centrastage.net'     }
             'Zinfandel' { $BaseUri = 'https://zinfandel-api.centrastage.net' }
             'Syrah'     { $BaseUri = 'https://syrah-api.centrastage.net'     }
-            Default {}
         }
 
         Set-Variable -Name "DattoRMMModuleBaseUri" -Value $BaseUri -Option ReadOnly -Scope Global -Force

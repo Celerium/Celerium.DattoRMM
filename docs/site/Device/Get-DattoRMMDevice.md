@@ -120,3 +120,5 @@ N/A
 
 [https://celerium.github.io/Celerium.DattoRMM/site/Device/Get-DattoRMMDevice.html](https://celerium.github.io/Celerium.DattoRMM/site/Device/Get-DattoRMMDevice.html)
 
+[https://zinfandel-api.centrastage.net/api/swagger-ui/index.html](https://zinfandel-api.centrastage.net/api/swagger-ui/index.html)
+

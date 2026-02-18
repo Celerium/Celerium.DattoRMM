@@ -103,3 +103,5 @@ N/A
 
 [https://celerium.github.io/Celerium.DattoRMM/site/Account/Get-DattoRMMAccountVariable.html](https://celerium.github.io/Celerium.DattoRMM/site/Account/Get-DattoRMMAccountVariable.html)
 
+[https://zinfandel-api.centrastage.net/api/swagger-ui/index.html](https://zinfandel-api.centrastage.net/api/swagger-ui/index.html)
+
