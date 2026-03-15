@@ -35,7 +35,7 @@ function Get-DattoRMMModuleSettings {
             $env:USERPROFILE\Celerium.DattoRMM\config.psd1
 
     .EXAMPLE
-        Get-DattoRMMModuleSettings -DattoRMMConfigPath C:\Celerium.DattoRMM -DattoRMMConfigFile MyConfig.psd1 -openConfFile
+        Get-DattoRMMModuleSettings -DattoRMMConfigPath C:\Celerium.DattoRMM -DattoRMMConfigFile MyConfig.psd1 -OpenConfFile
 
         Opens the configuration file from the defined location in the default editor
 

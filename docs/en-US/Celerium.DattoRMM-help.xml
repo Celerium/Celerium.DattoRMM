@@ -7040,7 +7040,7 @@
       </command:example>
       <command:example>
         <maml:title>-------------------------- EXAMPLE 2 --------------------------</maml:title>
-        <dev:code>Get-DattoRMMModuleSettings -DattoRMMConfigPath C:\Celerium.DattoRMM -DattoRMMConfigFile MyConfig.psd1 -openConfFile</dev:code>
+        <dev:code>Get-DattoRMMModuleSettings -DattoRMMConfigPath C:\Celerium.DattoRMM -DattoRMMConfigFile MyConfig.psd1 -OpenConfFile</dev:code>
         <dev:remarks>
           <maml:para>Opens the configuration file from the defined location in the default editor</maml:para>
           <maml:para>The location of the DattoRMM configuration file in this example is:     C:\Celerium.DattoRMM\MyConfig.psd1</maml:para>

@@ -90,7 +90,16 @@ function Import-DattoRMMModuleSettings {
             Set-Variable -Name "DattoRMMModuleUserAgent"            -Value $TempConfig.DattoRMMModuleUserAgent              -Option ReadOnly -Scope Global -Force
             Set-Variable -Name "DattoRMMModuleJSONConversionDepth"  -Value $TempConfig.DattoRMMModuleJSONConversionDepth    -Option ReadOnly -Scope Global -Force
 
-            if ($SkipRequestToken -eq $false){ Request-DattoRMMAccessToken }
+            if (-not $SkipRequestToken) {
+
+                try {
+                    Request-DattoRMMAccessToken -ErrorAction Stop
+                }
+                catch {
+                    Write-Warning "The supplied API keys are no longer valid. Run Add-DattoRMMApiKey to reenter valid API keys"
+                }
+
+            }
 
             Write-Verbose "Celerium.DattoRMM Module configuration loaded successfully from [ $DattoRMMConfig ]"
 

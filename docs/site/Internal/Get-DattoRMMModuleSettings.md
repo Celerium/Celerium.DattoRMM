@@ -42,7 +42,7 @@ The default location of the DattoRMM configuration file is:
 
 ### EXAMPLE 2
 ```powershell
-Get-DattoRMMModuleSettings -DattoRMMConfigPath C:\Celerium.DattoRMM -DattoRMMConfigFile MyConfig.psd1 -openConfFile
+Get-DattoRMMModuleSettings -DattoRMMConfigPath C:\Celerium.DattoRMM -DattoRMMConfigFile MyConfig.psd1 -OpenConfFile
 ```
 
 Opens the configuration file from the defined location in the default editor
