@@ -145,8 +145,10 @@ Describe "Testing [ $commandName ] function with [ $pester_TestName ]" -Tag @('a
         }
 
         It "Using [ -AsPlainText ] should return the API key entered" {
-            Add-DattoRMMApiKey -ApiKey '12345' -ApiSecretKey '12345'
-            (Get-DattoRMMApiKey -AsPlainText).ApiKey | Should -Be '12345'
+            Add-DattoRMMApiKey -ApiKey '12345' -ApiSecretKey '123456'
+            $Keys = Get-DattoRMMApiKey -AsPlainText
+            $Keys.ApiKey | Should -Be '12345'
+            $Keys.ApiSecretKey | Should -Be '123456'
         }
 
         It "If [ -ApiKey ] is empty it should throw a warning" {
