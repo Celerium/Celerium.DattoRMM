@@ -1,20 +1,20 @@
 function Get-DattoRMMJobResult {
 <#
     .SYNOPSIS
-        Fetches job results of the job identified by the job Uid
+        Gets job results of the job identified by the job Uid
         for device identified by the device Uid
 
     .DESCRIPTION
-        The Get-DattoRMMJobResult cmdlet fetches data of the job
+        The Get-DattoRMMJobResult cmdlet gets data of the job
         identified by the given job Uid
 
         JobUID is returned when creating jobs via other cmdlets
 
     .PARAMETER JobUID
-        Fetches data of the job identified by the given job Uid
+        Gets data of the job identified by the given job Uid
 
     .PARAMETER DeviceUID
-        Fetches data of the job identified by the given device Uid
+        Gets data of the job identified by the given device Uid
 
     .PARAMETER STDOUT
         Return jobs results from stdout
@@ -25,22 +25,22 @@ function Get-DattoRMMJobResult {
     .EXAMPLE
         Get-DattoRMMJobResult
 
-        Prompts for a job & device Uid and fetches data of the job
+        Prompts for a job & device Uid and gets data of the job
 
     .EXAMPLE
         Get-DattoRMMJobResult -JobUID '123456789' -DeviceUID '987654321'
 
-        Fetches data for the specific device job Uid
+        Gets data for the specific device job Uid
 
     .EXAMPLE
         Get-DattoRMMJobResult -JobUID '123456789' -DeviceUID '987654321' -STDOUT
 
-        Fetches stdout results for the specific device job Uid
+        Gets stdout results for the specific device job Uid
 
     .EXAMPLE
         Get-DattoRMMJobResult -JobUID '123456789' -DeviceUID '987654321' -STDERR
 
-        Fetches stderr results for the specific device job Uid
+        Gets stderr results for the specific device job Uid
 
     .NOTES
         N/A

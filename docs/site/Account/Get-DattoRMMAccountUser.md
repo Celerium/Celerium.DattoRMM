@@ -11,7 +11,7 @@ title: Get-DattoRMMAccountUser
 # Get-DattoRMMAccountUser
 
 ## SYNOPSIS
-Fetches the authentication users records of the
+Gets the authentication users records of the
 authenticated user's account
 
 ## SYNTAX
@@ -21,7 +21,7 @@ Get-DattoRMMAccountUser [[-Page] <Int32>] [[-Max] <Int32>] [-AllResults] [<Commo
 ```
 
 ## DESCRIPTION
-The Get-DattoRMMAccountUser cmdlet fetches the
+The Get-DattoRMMAccountUser cmdlet gets the
 authentication users records of the authenticated user's account
 
 ## EXAMPLES

@@ -1,16 +1,16 @@
 function Get-DattoRMMSiteAlert {
 <#
     .SYNOPSIS
-        Fetches the alerts of the site identified by the given site Uid
+        Gets the alerts of the site identified by the given site Uid
 
     .DESCRIPTION
-        The Get-DattoRMMSiteAlert cmdlet fetches the alerts of the site
+        The Get-DattoRMMSiteAlert cmdlet gets the alerts of the site
         identified by the given site Uid
 
         By default only open alerts are returned
 
     .PARAMETER AlertType
-        Fetches data of the specific alert type
+        Gets data of the specific alert type
 
         Allowed values:
             'All'
@@ -18,10 +18,10 @@ function Get-DattoRMMSiteAlert {
             'Open'
 
     .PARAMETER SiteUID
-        Fetches data of the alert identified by the given site Id
+        Gets data of the site's alerts identified by the given site Id
 
     .PARAMETER Muted
-        Fetches data of muted alerts
+        Gets data of muted alerts
 
     .PARAMETER Page
         Return items starting from the defined page number
@@ -39,15 +39,15 @@ function Get-DattoRMMSiteAlert {
     .EXAMPLE
         Get-DattoRMMSiteAlert
 
-        Prompts for a site Uid and fetches data of the site
+        Prompts for a site Uid and gets data of the site's alerts
 
     .EXAMPLE
         Get-DattoRMMSiteAlert -SiteUID '123456789'
 
-        Fetches data for the specific site Uid
+        Gets data for the specific site Uid
 
     .EXAMPLE
-        Get-DattoRMMAccountAlert -SiteUID '123456789' -Page 2 -Max 5
+        Get-DattoRMMSiteAlert -SiteUID '123456789' -Page 2 -Max 5
 
         Get the first defined number of items from the define page
 

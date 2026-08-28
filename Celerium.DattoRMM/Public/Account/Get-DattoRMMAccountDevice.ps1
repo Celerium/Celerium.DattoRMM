@@ -1,10 +1,10 @@
 function Get-DattoRMMAccountDevice {
 <#
     .SYNOPSIS
-        Fetches the devices of the authenticated user's account.
+        Gets the devices of the authenticated user's account.
 
     .DESCRIPTION
-        The Get-DattoRMMAccountDevice cmdlet fetches the devices of
+        The Get-DattoRMMAccountDevice cmdlet gets the devices of
         the authenticated user's account
 
     .PARAMETER FilterId

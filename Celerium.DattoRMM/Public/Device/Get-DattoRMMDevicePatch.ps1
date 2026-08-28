@@ -1,16 +1,20 @@
-function Get-DattoRMMSiteFilter {
+function Get-DattoRMMDevicePatch {
 <#
     .SYNOPSIS
-        Gets the site device filters (that the user can see with administrator role)
-        of the site identified by the given site Uid
+        Gets patch data of the device identified by the given device Uid
 
     .DESCRIPTION
-        The Get-DattoRMMSiteFilter cmdlet gets the site device filters
-        (that the user can see with administrator role) of the site identified
-        by the given site Uid
+        The Get-DattoRMMDevicePatch cmdlet gets patch data of the device
+        identified by the given device Uid
 
-    .PARAMETER SiteUID
-        Gets data of a specific site identified by the given site Uid
+    .PARAMETER DeviceUID
+        Gets data of the device identified by the given device Uid
+
+    .PARAMETER InstallStatus
+        Show patches with the given install status
+
+        Allowed Values:
+            'INSTALLED', 'APPROVED_PENDING', 'NOT_APPROVED'
 
     .PARAMETER Page
         Return items starting from the defined page number
@@ -26,35 +30,34 @@ function Get-DattoRMMSiteFilter {
         Highly recommended to only use with filters to reduce API errors\timeouts
 
     .EXAMPLE
-        Get-DattoRMMSiteFilter
+        Get-DattoRMMDevicePatch -DeviceUID 123456789
 
-        Prompts for a site Uid and gets data of the site
-
-    .EXAMPLE
-        Get-DattoRMMSiteFilter -SiteUID '123456789'
-
-        Gets data of the site's filters identified by the given site Id
+        Gets all patch data for the device identified by the given device Uid
 
     .EXAMPLE
-        Get-DattoRMMSiteFilter -SiteUID '123456789' -Page 2 -Max 5
+        Get-DattoRMMDevicePatch -DeviceUID 123456789 -InstallStatus INSTALLED -Page 2 -Max 5
 
-        Get the first defined number of items from the define page
+        Gets the first defined number of items from the defined page for installed patches
 
     .NOTES
         N/A
 
     .LINK
-        https://celerium.github.io/Celerium.DattoRMM/site/Site/Get-DattoRMMSiteFilter.html
+        https://celerium.github.io/Celerium.DattoRMM/site/Device/Get-DattoRMMDevicePatch.html
 
     .LINK
         https://zinfandel-api.centrastage.net/api/swagger-ui/index.html
 #>
 
-    [CmdletBinding(DefaultParameterSetName = 'Index')]
+    [CmdletBinding(DefaultParameterSetName = 'GetDevicePatch')]
     Param (
         [Parameter( Mandatory = $true )]
         [ValidateNotNullOrEmpty()]
-        [string]$SiteUID,
+        [string]$DeviceUID,
+
+        [Parameter( Mandatory = $false )]
+        [ValidateSet('INSTALLED', 'APPROVED_PENDING', 'NOT_APPROVED')]
+        [string]$InstallStatus,
 
         [Parameter( Mandatory = $false )]
         [ValidateRange(0, [int]::MaxValue)]
@@ -80,16 +83,15 @@ function Get-DattoRMMSiteFilter {
 
         Write-Verbose "[ $FunctionName ] - Running the [ $($PSCmdlet.ParameterSetName) ] parameterSet"
 
-        $ResourceUri = "/site/$SiteUID/filters"
+        $ResourceUri = "/device/$DeviceUID/patches"
 
         $UriParameters = @{}
 
         #Region     [ Parameter Translation ]
 
-        if ($PSCmdlet.ParameterSetName -eq 'Index') {
-            if ($Page)  { $UriParameters['page']    = $Page }
-            if ($Max)   { $UriParameters['max']     = $Max }
-        }
+        if ($InstallStatus) { $UriParameters['installStatus']   = $InstallStatus }
+        if ($Page)          { $UriParameters['page']            = $Page }
+        if ($Max)           { $UriParameters['max']             = $Max }
 
         #EndRegion  [ Parameter Translation ]
 

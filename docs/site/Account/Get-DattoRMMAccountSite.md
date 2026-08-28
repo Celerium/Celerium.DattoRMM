@@ -11,7 +11,7 @@ title: Get-DattoRMMAccountSite
 # Get-DattoRMMAccountSite
 
 ## SYNOPSIS
-Fetches the site records of the authenticated user's account
+Gets the site records of the authenticated user's account
 
 ## SYNTAX
 
@@ -21,7 +21,7 @@ Get-DattoRMMAccountSite [[-SiteName] <String>] [[-Page] <Int32>] [[-Max] <Int32>
 ```
 
 ## DESCRIPTION
-The Get-DattoRMMAccountSite cmdlet fetches the site records
+The Get-DattoRMMAccountSite cmdlet gets the site records
 of the authenticated user's account
 
 ## EXAMPLES

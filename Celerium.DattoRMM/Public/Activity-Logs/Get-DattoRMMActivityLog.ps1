@@ -1,10 +1,10 @@
 function Get-DattoRMMActivityLog {
 <#
     .SYNOPSIS
-        Fetches the activity logs
+        Gets the activity logs
 
     .DESCRIPTION
-        The Get-DattoRMMActivityLog cmdlet fetches the activity logs
+        The Get-DattoRMMActivityLog cmdlet gets the activity logs
 
     .PARAMETER Order
         Specifies the order in which records should be returned
@@ -23,14 +23,14 @@ function Get-DattoRMMActivityLog {
         are returned in the response where this parameter in already included
 
     .PARAMETER From
-        Defines the UTC start date for fetching data
+        Defines the UTC start date for getting data
 
         By default API returns logs from last 15 minutes
 
         Format: yyyy-MM-ddTHH:mm:ssZ
 
     .PARAMETER Until
-        Defines the UTC end date for fetching data
+        Defines the UTC end date for getting data
 
         Format: yyyy-MM-ddTHH:mm:ssZ
 

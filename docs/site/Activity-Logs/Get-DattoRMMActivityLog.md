@@ -11,7 +11,7 @@ title: Get-DattoRMMActivityLog
 # Get-DattoRMMActivityLog
 
 ## SYNOPSIS
-Fetches the activity logs
+Gets the activity logs
 
 ## SYNTAX
 
@@ -23,7 +23,7 @@ Get-DattoRMMActivityLog [[-Order] <String>] [[-SearchAfter] <String>] [[-From] <
 ```
 
 ## DESCRIPTION
-The Get-DattoRMMActivityLog cmdlet fetches the activity logs
+The Get-DattoRMMActivityLog cmdlet gets the activity logs
 
 ## EXAMPLES
 
@@ -91,7 +91,7 @@ Accept wildcard characters: False
 ```
 
 ### -From
-Defines the UTC start date for fetching data
+Defines the UTC start date for getting data
 
 By default API returns logs from last 15 minutes
 
@@ -110,7 +110,7 @@ Accept wildcard characters: False
 ```
 
 ### -Until
-Defines the UTC end date for fetching data
+Defines the UTC end date for getting data
 
 Format: yyyy-MM-ddTHH:mm:ssZ
 

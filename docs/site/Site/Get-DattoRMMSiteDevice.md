@@ -11,7 +11,7 @@ title: Get-DattoRMMSiteDevice
 # Get-DattoRMMSiteDevice
 
 ## SYNOPSIS
-Fetches the devices records of the site identified by the given site Uid
+Gets the devices records of the site identified by the given site Uid
 
 ## SYNTAX
 
@@ -28,7 +28,7 @@ Get-DattoRMMSiteDevice -SiteUID <String> [-NetworkInterface] [-Page <Int32>] [-M
 ```
 
 ## DESCRIPTION
-The Get-DattoRMMSiteDevice cmdlet fetches the devices records of the
+The Get-DattoRMMSiteDevice cmdlet gets the devices records of the
 site identified by the given site Uid
 
 ## EXAMPLES
@@ -38,14 +38,14 @@ site identified by the given site Uid
 Get-DattoRMMSiteDevice
 ```
 
-Prompts for a site Uid and fetches data of the site
+Prompts for a site Uid and gets data of the site
 
 ### EXAMPLE 2
 ```powershell
 Get-DattoRMMSiteDevice -SiteUID '123456789'
 ```
 
-Fetches data for the specific site Id
+Gets data for the specific site Id
 
 ### EXAMPLE 3
 ```powershell
@@ -57,7 +57,7 @@ Get the first defined number of items from the define page
 ## PARAMETERS
 
 ### -SiteUID
-Fetches data of a specific site identified by the given site Uid
+Gets data of a specific site identified by the given site Uid
 
 ```yaml
 Type: String
@@ -72,7 +72,7 @@ Accept wildcard characters: False
 ```
 
 ### -FilterID
-Fetches data of a specific site device identified by the given device Id
+Gets data of a specific site device identified by the given device Id
 
 ```yaml
 Type: String
@@ -87,7 +87,7 @@ Accept wildcard characters: False
 ```
 
 ### -NetworkInterface
-Fetches the shortened devices records with network interface information
+Gets the shortened devices records with network interface information
 of the site identified by the given site Uid
 
 ```yaml

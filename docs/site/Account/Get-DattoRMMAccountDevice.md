@@ -11,7 +11,7 @@ title: Get-DattoRMMAccountDevice
 # Get-DattoRMMAccountDevice
 
 ## SYNOPSIS
-Fetches the devices of the authenticated user's account.
+Gets the devices of the authenticated user's account.
 
 ## SYNTAX
 
@@ -22,7 +22,7 @@ Get-DattoRMMAccountDevice [[-FilterID] <String>] [[-Hostname] <String>] [[-Devic
 ```
 
 ## DESCRIPTION
-The Get-DattoRMMAccountDevice cmdlet fetches the devices of
+The Get-DattoRMMAccountDevice cmdlet gets the devices of
 the authenticated user's account
 
 ## EXAMPLES

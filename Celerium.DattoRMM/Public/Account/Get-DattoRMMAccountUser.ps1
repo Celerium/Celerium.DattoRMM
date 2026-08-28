@@ -1,11 +1,11 @@
 function Get-DattoRMMAccountUser {
 <#
     .SYNOPSIS
-        Fetches the authentication users records of the
+        Gets the authentication users records of the
         authenticated user's account
 
     .DESCRIPTION
-        The Get-DattoRMMAccountUser cmdlet fetches the
+        The Get-DattoRMMAccountUser cmdlet gets the
         authentication users records of the authenticated user's account
 
     .PARAMETER Page

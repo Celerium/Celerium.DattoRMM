@@ -1,25 +1,25 @@
 function Get-DattoRMMSite {
 <#
     .SYNOPSIS
-        Fetches data of the site (including total number of devices)
+        Gets data of the site (including total number of devices)
         identified by the given site Uid
 
     .DESCRIPTION
-        The Get-DattoRMMSite cmdlet fetches data of the site
+        The Get-DattoRMMSite cmdlet gets data of the site
         (including total number of devices) identified by the given site Uid
 
     .PARAMETER SiteUID
-        Fetches data of a  specific site identified by the given site Uid
+        Gets data of a  specific site identified by the given site Uid
 
     .EXAMPLE
         Get-DattoRMMSite
 
-        Prompts for a site Uid and fetches data of the site
+        Prompts for a site Uid and gets data of the site
 
     .EXAMPLE
         Get-DattoRMMSite -SiteUID '123456789'
 
-        Fetches data for the specific site Id
+        Gets data for the specific site Id
 
     .NOTES
         N/A

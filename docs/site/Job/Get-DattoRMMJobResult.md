@@ -11,7 +11,7 @@ title: Get-DattoRMMJobResult
 # Get-DattoRMMJobResult
 
 ## SYNOPSIS
-Fetches job results of the job identified by the job Uid
+Gets job results of the job identified by the job Uid
 for device identified by the device Uid
 
 ## SYNTAX
@@ -32,7 +32,7 @@ Get-DattoRMMJobResult -JobUID <String> -DeviceUID <String> [-STDERR] [<CommonPar
 ```
 
 ## DESCRIPTION
-The Get-DattoRMMJobResult cmdlet fetches data of the job
+The Get-DattoRMMJobResult cmdlet gets data of the job
 identified by the given job Uid
 
 JobUID is returned when creating jobs via other cmdlets
@@ -44,33 +44,33 @@ JobUID is returned when creating jobs via other cmdlets
 Get-DattoRMMJobResult
 ```
 
-Prompts for a job & device Uid and fetches data of the job
+Prompts for a job & device Uid and gets data of the job
 
 ### EXAMPLE 2
 ```powershell
 Get-DattoRMMJobResult -JobUID '123456789' -DeviceUID '987654321'
 ```
 
-Fetches data for the specific device job Uid
+Gets data for the specific device job Uid
 
 ### EXAMPLE 3
 ```powershell
 Get-DattoRMMJobResult -JobUID '123456789' -DeviceUID '987654321' -STDOUT
 ```
 
-Fetches stdout results for the specific device job Uid
+Gets stdout results for the specific device job Uid
 
 ### EXAMPLE 4
 ```powershell
 Get-DattoRMMJobResult -JobUID '123456789' -DeviceUID '987654321' -STDERR
 ```
 
-Fetches stderr results for the specific device job Uid
+Gets stderr results for the specific device job Uid
 
 ## PARAMETERS
 
 ### -JobUID
-Fetches data of the job identified by the given job Uid
+Gets data of the job identified by the given job Uid
 
 ```yaml
 Type: String
@@ -85,7 +85,7 @@ Accept wildcard characters: False
 ```
 
 ### -DeviceUID
-Fetches data of the job identified by the given device Uid
+Gets data of the job identified by the given device Uid
 
 ```yaml
 Type: String

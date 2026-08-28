@@ -8,28 +8,28 @@ function Get-DattoRMMSystem {
         system operation information
 
     .PARAMETER Status
-        Fetches the system status (start date, status and version)
+        Gets the system status (start date, status and version)
 
     .PARAMETER RequestRate
-        Fetches the request rate status for the authenticated user's account
+        Gets the request rate status for the authenticated user's account
 
     .PARAMETER Pagination
-        Fetches the pagination configurations
+        Gets the pagination configurations
 
     .EXAMPLE
         Get-DattoRMMSystem
 
-        Fetches the system status (start date, status and version)
+        Gets the system status (start date, status and version)
 
     .EXAMPLE
         Get-DattoRMMSystem -RequestRate
 
-        Fetches the request rate status for the authenticated user's account
+        Gets the request rate status for the authenticated user's account
 
     .EXAMPLE
         Get-DattoRMMSystem -Pagination
 
-        Fetches the pagination configurations
+        Gets the pagination configurations
 
     .NOTES
         N/A

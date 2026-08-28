@@ -41,26 +41,26 @@ system operation information
 Get-DattoRMMSystem
 ```
 
-Fetches the system status (start date, status and version)
+Gets the system status (start date, status and version)
 
 ### EXAMPLE 2
 ```powershell
 Get-DattoRMMSystem -RequestRate
 ```
 
-Fetches the request rate status for the authenticated user's account
+Gets the request rate status for the authenticated user's account
 
 ### EXAMPLE 3
 ```powershell
 Get-DattoRMMSystem -Pagination
 ```
 
-Fetches the pagination configurations
+Gets the pagination configurations
 
 ## PARAMETERS
 
 ### -Status
-Fetches the system status (start date, status and version)
+Gets the system status (start date, status and version)
 
 ```yaml
 Type: SwitchParameter
@@ -75,7 +75,7 @@ Accept wildcard characters: False
 ```
 
 ### -RequestRate
-Fetches the request rate status for the authenticated user's account
+Gets the request rate status for the authenticated user's account
 
 ```yaml
 Type: SwitchParameter
@@ -90,7 +90,7 @@ Accept wildcard characters: False
 ```
 
 ### -Pagination
-Fetches the pagination configurations
+Gets the pagination configurations
 
 ```yaml
 Type: SwitchParameter

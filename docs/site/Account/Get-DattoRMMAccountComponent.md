@@ -11,7 +11,7 @@ title: Get-DattoRMMAccountComponent
 # Get-DattoRMMAccountComponent
 
 ## SYNOPSIS
-Fetches the account components
+Gets the account components
 
 ## SYNTAX
 
@@ -20,7 +20,7 @@ Get-DattoRMMAccountComponent [[-Page] <Int32>] [[-Max] <Int32>] [-AllResults] [<
 ```
 
 ## DESCRIPTION
-The Get-DattoRMMAccountComponent cmdlet fetches the account components
+The Get-DattoRMMAccountComponent cmdlet gets the account components
 
 ## EXAMPLES
 

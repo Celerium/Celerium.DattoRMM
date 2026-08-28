@@ -11,7 +11,7 @@ title: Get-DattoRMMAlert
 # Get-DattoRMMAlert
 
 ## SYNOPSIS
-Fetches data of the alert identified by the given alert Uid
+Gets data of the alert identified by the given alert Uid
 
 ## SYNTAX
 
@@ -20,7 +20,7 @@ Get-DattoRMMAlert [-AlertUID] <String> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The Get-DattoRMMAlert cmdlet fetches data of the alert
+The Get-DattoRMMAlert cmdlet gets data of the alert
 identified by the given alert Uid
 
 ## EXAMPLES

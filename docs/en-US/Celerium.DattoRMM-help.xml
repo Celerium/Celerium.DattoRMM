@@ -6,11 +6,11 @@
       <command:verb>Get</command:verb>
       <command:noun>DattoRMMAccount</command:noun>
       <maml:description>
-        <maml:para>Fetches the authenticated user's account data.</maml:para>
+        <maml:para>Gets the authenticated user's account data.</maml:para>
       </maml:description>
     </command:details>
     <maml:description>
-      <maml:para>The Get-DattoRMMAccount cmdlet fetches the authenticated user's account data</maml:para>
+      <maml:para>The Get-DattoRMMAccount cmdlet gets the authenticated user's account data</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -30,7 +30,7 @@
         <maml:title>-------------------------- EXAMPLE 1 --------------------------</maml:title>
         <dev:code>Get-DattoRMMAccount</dev:code>
         <dev:remarks>
-          <maml:para>Fetches the authenticated user's account data</maml:para>
+          <maml:para>Gets the authenticated user's account data</maml:para>
         </dev:remarks>
       </command:example>
     </command:examples>
@@ -51,11 +51,11 @@
       <command:verb>Get</command:verb>
       <command:noun>DattoRMMAccountAlert</command:noun>
       <maml:description>
-        <maml:para>Fetches the account alerts</maml:para>
+        <maml:para>Gets the account alerts</maml:para>
       </maml:description>
     </command:details>
     <maml:description>
-      <maml:para>The Get-DattoRMMAccountAlert cmdlet fetches the account alerts</maml:para>
+      <maml:para>The Get-DattoRMMAccountAlert cmdlet gets the account alerts</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -237,11 +237,11 @@
       <command:verb>Get</command:verb>
       <command:noun>DattoRMMAccountComponent</command:noun>
       <maml:description>
-        <maml:para>Fetches the account components</maml:para>
+        <maml:para>Gets the account components</maml:para>
       </maml:description>
     </command:details>
     <maml:description>
-      <maml:para>The Get-DattoRMMAccountComponent cmdlet fetches the account components</maml:para>
+      <maml:para>The Get-DattoRMMAccountComponent cmdlet gets the account components</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -365,11 +365,11 @@
       <command:verb>Get</command:verb>
       <command:noun>DattoRMMAccountDevice</command:noun>
       <maml:description>
-        <maml:para>Fetches the devices of the authenticated user's account.</maml:para>
+        <maml:para>Gets the devices of the authenticated user's account.</maml:para>
       </maml:description>
     </command:details>
     <maml:description>
-      <maml:para>The Get-DattoRMMAccountDevice cmdlet fetches the devices of the authenticated user's account</maml:para>
+      <maml:para>The Get-DattoRMMAccountDevice cmdlet gets the devices of the authenticated user's account</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -751,11 +751,11 @@
       <command:verb>Get</command:verb>
       <command:noun>DattoRMMAccountSite</command:noun>
       <maml:description>
-        <maml:para>Fetches the site records of the authenticated user's account</maml:para>
+        <maml:para>Gets the site records of the authenticated user's account</maml:para>
       </maml:description>
     </command:details>
     <maml:description>
-      <maml:para>The Get-DattoRMMAccountSite cmdlet fetches the site records of the authenticated user's account</maml:para>
+      <maml:para>The Get-DattoRMMAccountSite cmdlet gets the site records of the authenticated user's account</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -905,11 +905,11 @@
       <command:verb>Get</command:verb>
       <command:noun>DattoRMMAccountUser</command:noun>
       <maml:description>
-        <maml:para>Fetches the authentication users records of the authenticated user's account</maml:para>
+        <maml:para>Gets the authentication users records of the authenticated user's account</maml:para>
       </maml:description>
     </command:details>
     <maml:description>
-      <maml:para>The Get-DattoRMMAccountUser cmdlet fetches the authentication users records of the authenticated user's account</maml:para>
+      <maml:para>The Get-DattoRMMAccountUser cmdlet gets the authentication users records of the authenticated user's account</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -1033,11 +1033,11 @@
       <command:verb>Get</command:verb>
       <command:noun>DattoRMMAccountVariable</command:noun>
       <maml:description>
-        <maml:para>Fetches the account variables</maml:para>
+        <maml:para>Gets the account variables</maml:para>
       </maml:description>
     </command:details>
     <maml:description>
-      <maml:para>The Get-DattoRMMAccountVariable cmdlet fetches the account variables</maml:para>
+      <maml:para>The Get-DattoRMMAccountVariable cmdlet gets the account variables</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -1732,11 +1732,11 @@
       <command:verb>Get</command:verb>
       <command:noun>DattoRMMActivityLog</command:noun>
       <maml:description>
-        <maml:para>Fetches the activity logs</maml:para>
+        <maml:para>Gets the activity logs</maml:para>
       </maml:description>
     </command:details>
     <maml:description>
-      <maml:para>The Get-DattoRMMActivityLog cmdlet fetches the activity logs</maml:para>
+      <maml:para>The Get-DattoRMMActivityLog cmdlet gets the activity logs</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -1796,7 +1796,7 @@
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="3" aliases="none">
           <maml:name>From</maml:name>
           <maml:description>
-            <maml:para>Defines the UTC start date for fetching data</maml:para>
+            <maml:para>Defines the UTC start date for getting data</maml:para>
             <maml:para>By default API returns logs from last 15 minutes</maml:para>
             <maml:para>Format: yyyy-MM-ddTHH:mm:ssZ</maml:para>
           </maml:description>
@@ -1810,7 +1810,7 @@
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="4" aliases="none">
           <maml:name>Until</maml:name>
           <maml:description>
-            <maml:para>Defines the UTC end date for fetching data</maml:para>
+            <maml:para>Defines the UTC end date for getting data</maml:para>
             <maml:para>Format: yyyy-MM-ddTHH:mm:ssZ</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">DateTime</command:parameterValue>
@@ -1927,7 +1927,7 @@
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="3" aliases="none">
         <maml:name>From</maml:name>
         <maml:description>
-          <maml:para>Defines the UTC start date for fetching data</maml:para>
+          <maml:para>Defines the UTC start date for getting data</maml:para>
           <maml:para>By default API returns logs from last 15 minutes</maml:para>
           <maml:para>Format: yyyy-MM-ddTHH:mm:ssZ</maml:para>
         </maml:description>
@@ -1941,7 +1941,7 @@
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="4" aliases="none">
         <maml:name>Until</maml:name>
         <maml:description>
-          <maml:para>Defines the UTC end date for fetching data</maml:para>
+          <maml:para>Defines the UTC end date for getting data</maml:para>
           <maml:para>Format: yyyy-MM-ddTHH:mm:ssZ</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">DateTime</command:parameterValue>
@@ -2101,11 +2101,11 @@
       <command:verb>Get</command:verb>
       <command:noun>DattoRMMAlert</command:noun>
       <maml:description>
-        <maml:para>Fetches data of the alert identified by the given alert Uid</maml:para>
+        <maml:para>Gets data of the alert identified by the given alert Uid</maml:para>
       </maml:description>
     </command:details>
     <maml:description>
-      <maml:para>The Get-DattoRMMAlert cmdlet fetches data of the alert identified by the given alert Uid</maml:para>
+      <maml:para>The Get-DattoRMMAlert cmdlet gets data of the alert identified by the given alert Uid</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -2294,11 +2294,11 @@
       <command:verb>Get</command:verb>
       <command:noun>DattoRMMAuditDevice</command:noun>
       <maml:description>
-        <maml:para>Fetches audit data of the generic device identified the given device Uid</maml:para>
+        <maml:para>Gets audit data of the generic device identified the given device Uid</maml:para>
       </maml:description>
     </command:details>
     <maml:description>
-      <maml:para>The Get-DattoRMMAuditDevice cmdlet fetches audit data of the generic device identified the given device Uid</maml:para>
+      <maml:para>The Get-DattoRMMAuditDevice cmdlet gets audit data of the generic device identified the given device Uid</maml:para>
       <maml:para>The device class must be of type "device"</maml:para>
     </maml:description>
     <command:syntax>
@@ -2307,7 +2307,7 @@
         <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>DeviceUID</maml:name>
           <maml:description>
-            <maml:para>Fetches audit data of the generic device identified the given device Uid</maml:para>
+            <maml:para>Gets audit data of the generic device identified the given device Uid</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -2322,7 +2322,7 @@
         <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>DeviceUID</maml:name>
           <maml:description>
-            <maml:para>Fetches audit data of the generic device identified the given device Uid</maml:para>
+            <maml:para>Gets audit data of the generic device identified the given device Uid</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -2334,7 +2334,7 @@
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>Software</maml:name>
           <maml:description>
-            <maml:para>Fetches audited software of the generic device identified the given device Uid</maml:para>
+            <maml:para>Gets audited software of the generic device identified the given device Uid</maml:para>
           </maml:description>
           <dev:type>
             <maml:name>SwitchParameter</maml:name>
@@ -2385,7 +2385,7 @@
         <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>MacAddress</maml:name>
           <maml:description>
-            <maml:para>Fetches audit data of the generic device(s) identified by the given MAC address in format: XXXXXXXXXXXX</maml:para>
+            <maml:para>Gets audit data of the generic device(s) identified by the given MAC address in format: XXXXXXXXXXXX</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -2400,7 +2400,7 @@
       <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>DeviceUID</maml:name>
         <maml:description>
-          <maml:para>Fetches audit data of the generic device identified the given device Uid</maml:para>
+          <maml:para>Gets audit data of the generic device identified the given device Uid</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
         <dev:type>
@@ -2412,7 +2412,7 @@
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>Software</maml:name>
         <maml:description>
-          <maml:para>Fetches audited software of the generic device identified the given device Uid</maml:para>
+          <maml:para>Gets audited software of the generic device identified the given device Uid</maml:para>
         </maml:description>
         <command:parameterValue required="false" variableLength="false">SwitchParameter</command:parameterValue>
         <dev:type>
@@ -2424,7 +2424,7 @@
       <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>MacAddress</maml:name>
         <maml:description>
-          <maml:para>Fetches audit data of the generic device(s) identified by the given MAC address in format: XXXXXXXXXXXX</maml:para>
+          <maml:para>Gets audit data of the generic device(s) identified by the given MAC address in format: XXXXXXXXXXXX</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
         <dev:type>
@@ -2526,11 +2526,11 @@
       <command:verb>Get</command:verb>
       <command:noun>DattoRMMAuditESXI</command:noun>
       <maml:description>
-        <maml:para>Fetches audit data of the ESXi host identified the given device Uid</maml:para>
+        <maml:para>Gets audit data of the ESXi host identified the given device Uid</maml:para>
       </maml:description>
     </command:details>
     <maml:description>
-      <maml:para>The Get-DattoRMMAuditESXI cmdlet fetches audit data of the ESXi host identified the given device Uid</maml:para>
+      <maml:para>The Get-DattoRMMAuditESXI cmdlet gets audit data of the ESXi host identified the given device Uid</maml:para>
       <maml:para>The device class must be of type "esxihost"</maml:para>
     </maml:description>
     <command:syntax>
@@ -2604,11 +2604,11 @@
       <command:verb>Get</command:verb>
       <command:noun>DattoRMMAuditPrinter</command:noun>
       <maml:description>
-        <maml:para>Fetches audit data of the printer identified with the given device Uid</maml:para>
+        <maml:para>Gets audit data of the printer identified with the given device Uid</maml:para>
       </maml:description>
     </command:details>
     <maml:description>
-      <maml:para>The Get-DattoRMMAuditPrinter cmdlet fetches audit data of the printer identified the given device Uid</maml:para>
+      <maml:para>The Get-DattoRMMAuditPrinter cmdlet gets audit data of the printer identified the given device Uid</maml:para>
       <maml:para>The device class must be of type "printer"</maml:para>
     </maml:description>
     <command:syntax>
@@ -2682,11 +2682,11 @@
       <command:verb>Get</command:verb>
       <command:noun>DattoRMMDevice</command:noun>
       <maml:description>
-        <maml:para>Fetches data of the device identified by the given device Uid</maml:para>
+        <maml:para>Gets data of the device identified by the given device Uid</maml:para>
       </maml:description>
     </command:details>
     <maml:description>
-      <maml:para>The Get-DattoRMMDevice cmdlet fetches data of the device identified by the given device Uid</maml:para>
+      <maml:para>The Get-DattoRMMDevice cmdlet gets data of the device identified by the given device Uid</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -2694,7 +2694,7 @@
         <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>DeviceUID</maml:name>
           <maml:description>
-            <maml:para>Fetches data of the device identified by the given device Uid</maml:para>
+            <maml:para>Gets data of the device identified by the given device Uid</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -2709,7 +2709,7 @@
         <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>DeviceID</maml:name>
           <maml:description>
-            <maml:para>Fetches data of the device identified by the given device Id</maml:para>
+            <maml:para>Gets data of the device identified by the given device Id</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -2724,7 +2724,7 @@
         <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>MacAddress</maml:name>
           <maml:description>
-            <maml:para>Fetches data of the device(s) identified by the given MAC address</maml:para>
+            <maml:para>Gets data of the device(s) identified by the given MAC address</maml:para>
             <maml:para>Format: XXXXXXXXXXXX</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
@@ -2740,7 +2740,7 @@
       <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>DeviceUID</maml:name>
         <maml:description>
-          <maml:para>Fetches data of the device identified by the given device Uid</maml:para>
+          <maml:para>Gets data of the device identified by the given device Uid</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
         <dev:type>
@@ -2752,7 +2752,7 @@
       <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>DeviceID</maml:name>
         <maml:description>
-          <maml:para>Fetches data of the device identified by the given device Id</maml:para>
+          <maml:para>Gets data of the device identified by the given device Id</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
         <dev:type>
@@ -2764,7 +2764,7 @@
       <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>MacAddress</maml:name>
         <maml:description>
-          <maml:para>Fetches data of the device(s) identified by the given MAC address</maml:para>
+          <maml:para>Gets data of the device(s) identified by the given MAC address</maml:para>
           <maml:para>Format: XXXXXXXXXXXX</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
@@ -2787,21 +2787,21 @@
         <maml:title>-------------------------- EXAMPLE 1 --------------------------</maml:title>
         <dev:code>Get-DattoRMMDevice</dev:code>
         <dev:remarks>
-          <maml:para>Prompts for a device Uid and fetches data of the device</maml:para>
+          <maml:para>Prompts for a device Uid and gets data of the device</maml:para>
         </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>-------------------------- EXAMPLE 2 --------------------------</maml:title>
         <dev:code>Get-DattoRMMDevice -DeviceID '123456789'</dev:code>
         <dev:remarks>
-          <maml:para>Fetches data for the specific device Id</maml:para>
+          <maml:para>Gets data for the specific device Id</maml:para>
         </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>-------------------------- EXAMPLE 3 --------------------------</maml:title>
         <dev:code>Get-DattoRMMDevice -MacAddress '00155DC07E1F'</dev:code>
         <dev:remarks>
-          <maml:para>Fetches data for the specific device mac address</maml:para>
+          <maml:para>Gets data for the specific device mac address</maml:para>
         </dev:remarks>
       </command:example>
     </command:examples>
@@ -2822,11 +2822,11 @@
       <command:verb>Get</command:verb>
       <command:noun>DattoRMMDeviceAlert</command:noun>
       <maml:description>
-        <maml:para>Fetches the alerts of the device identified by the given device Uid</maml:para>
+        <maml:para>Gets the alerts of the device identified by the given device Uid</maml:para>
       </maml:description>
     </command:details>
     <maml:description>
-      <maml:para>The Get-DattoRMMDeviceAlert cmdlet fetches the alerts of the device identified by the given device Uid</maml:para>
+      <maml:para>The Get-DattoRMMDeviceAlert cmdlet gets the alerts of the device identified by the given device Uid</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -2834,7 +2834,7 @@
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="1" aliases="none">
           <maml:name>AlertType</maml:name>
           <maml:description>
-            <maml:para>Fetches data of the specific alert type</maml:para>
+            <maml:para>Gets data of the specific alert type</maml:para>
             <maml:para>Allowed values:     'All'     'Resolved'     'Open'</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
@@ -2847,7 +2847,7 @@
         <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="2" aliases="none">
           <maml:name>DeviceUID</maml:name>
           <maml:description>
-            <maml:para>Fetches data of the alert identified by the given device Id</maml:para>
+            <maml:para>Gets data of the alert identified by the given device Id</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -2884,7 +2884,7 @@
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>Muted</maml:name>
           <maml:description>
-            <maml:para>Fetches data of muted alerts</maml:para>
+            <maml:para>Gets data of muted alerts</maml:para>
           </maml:description>
           <dev:type>
             <maml:name>SwitchParameter</maml:name>
@@ -2910,7 +2910,7 @@
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="1" aliases="none">
         <maml:name>AlertType</maml:name>
         <maml:description>
-          <maml:para>Fetches data of the specific alert type</maml:para>
+          <maml:para>Gets data of the specific alert type</maml:para>
           <maml:para>Allowed values:     'All'     'Resolved'     'Open'</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
@@ -2923,7 +2923,7 @@
       <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="2" aliases="none">
         <maml:name>DeviceUID</maml:name>
         <maml:description>
-          <maml:para>Fetches data of the alert identified by the given device Id</maml:para>
+          <maml:para>Gets data of the alert identified by the given device Id</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
         <dev:type>
@@ -2935,7 +2935,7 @@
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>Muted</maml:name>
         <maml:description>
-          <maml:para>Fetches data of muted alerts</maml:para>
+          <maml:para>Gets data of muted alerts</maml:para>
         </maml:description>
         <command:parameterValue required="false" variableLength="false">SwitchParameter</command:parameterValue>
         <dev:type>
@@ -2993,23 +2993,16 @@
     <command:examples>
       <command:example>
         <maml:title>-------------------------- EXAMPLE 1 --------------------------</maml:title>
-        <dev:code>Get-DattoRMMDeviceAlert</dev:code>
+        <dev:code>Get-DattoRMMDeviceAlert -DeviceUID '123456789'</dev:code>
         <dev:remarks>
-          <maml:para>Prompts for a device Uid and fetches data of the device</maml:para>
+          <maml:para>Gets open alert data for the specific device Uid</maml:para>
         </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>-------------------------- EXAMPLE 2 --------------------------</maml:title>
-        <dev:code>Get-DattoRMMDeviceAlert -DeviceUID '123456789'</dev:code>
+        <dev:code>Get-DattoRMMDeviceAlert -DeviceUID '123456789' -AlertType Open -Page 2 -Max 5</dev:code>
         <dev:remarks>
-          <maml:para>Fetches data for the specific device Uid</maml:para>
-        </dev:remarks>
-      </command:example>
-      <command:example>
-        <maml:title>-------------------------- EXAMPLE 3 --------------------------</maml:title>
-        <dev:code>Get-DattoRMMDeviceAlert -MacAddress '00155DC07E1F'</dev:code>
-        <dev:remarks>
-          <maml:para>Fetches data for the specific device mac address</maml:para>
+          <maml:para>Gets the first defined number of open alerts from the defined page for the specific device Uid</maml:para>
         </dev:remarks>
       </command:example>
     </command:examples>
@@ -3017,6 +3010,184 @@
       <maml:navigationLink>
         <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/Device/Get-DattoRMMDeviceAlert.html</maml:linkText>
         <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/Device/Get-DattoRMMDeviceAlert.html</maml:uri>
+      </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
+        <maml:uri>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:uri>
+      </maml:navigationLink>
+    </command:relatedLinks>
+  </command:command>
+  <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
+    <command:details>
+      <command:name>Get-DattoRMMDevicePatch</command:name>
+      <command:verb>Get</command:verb>
+      <command:noun>DattoRMMDevicePatch</command:noun>
+      <maml:description>
+        <maml:para>Gets patch data of the device identified by the given device Uid</maml:para>
+      </maml:description>
+    </command:details>
+    <maml:description>
+      <maml:para>The Get-DattoRMMDevicePatch cmdlet gets patch data of the device identified by the given device Uid</maml:para>
+    </maml:description>
+    <command:syntax>
+      <command:syntaxItem>
+        <maml:name>Get-DattoRMMDevicePatch</maml:name>
+        <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="1" aliases="none">
+          <maml:name>DeviceUID</maml:name>
+          <maml:description>
+            <maml:para>Gets data of the device identified by the given device Uid</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
+          <dev:type>
+            <maml:name>String</maml:name>
+            <maml:uri />
+          </dev:type>
+          <dev:defaultValue>None</dev:defaultValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="2" aliases="none">
+          <maml:name>InstallStatus</maml:name>
+          <maml:description>
+            <maml:para>Show patches with the given install status</maml:para>
+            <maml:para>Allowed Values:     'INSTALLED', 'APPROVED_PENDING', 'NOT_APPROVED'</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
+          <dev:type>
+            <maml:name>String</maml:name>
+            <maml:uri />
+          </dev:type>
+          <dev:defaultValue>None</dev:defaultValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="3" aliases="none">
+          <maml:name>Page</maml:name>
+          <maml:description>
+            <maml:para>Return items starting from the defined page number</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
+          <dev:type>
+            <maml:name>Int32</maml:name>
+            <maml:uri />
+          </dev:type>
+          <dev:defaultValue>0</dev:defaultValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="4" aliases="none">
+          <maml:name>Max</maml:name>
+          <maml:description>
+            <maml:para>Return the first N items</maml:para>
+            <maml:para>Allowed Value: 1-250</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
+          <dev:type>
+            <maml:name>Int32</maml:name>
+            <maml:uri />
+          </dev:type>
+          <dev:defaultValue>250</dev:defaultValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
+          <maml:name>AllResults</maml:name>
+          <maml:description>
+            <maml:para>Returns all items from an endpoint</maml:para>
+            <maml:para>Highly recommended to only use with filters to reduce API errors\timeouts</maml:para>
+          </maml:description>
+          <dev:type>
+            <maml:name>SwitchParameter</maml:name>
+            <maml:uri />
+          </dev:type>
+          <dev:defaultValue>False</dev:defaultValue>
+        </command:parameter>
+      </command:syntaxItem>
+    </command:syntax>
+    <command:parameters>
+      <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="1" aliases="none">
+        <maml:name>DeviceUID</maml:name>
+        <maml:description>
+          <maml:para>Gets data of the device identified by the given device Uid</maml:para>
+        </maml:description>
+        <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
+        <dev:type>
+          <maml:name>String</maml:name>
+          <maml:uri />
+        </dev:type>
+        <dev:defaultValue>None</dev:defaultValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="2" aliases="none">
+        <maml:name>InstallStatus</maml:name>
+        <maml:description>
+          <maml:para>Show patches with the given install status</maml:para>
+          <maml:para>Allowed Values:     'INSTALLED', 'APPROVED_PENDING', 'NOT_APPROVED'</maml:para>
+        </maml:description>
+        <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
+        <dev:type>
+          <maml:name>String</maml:name>
+          <maml:uri />
+        </dev:type>
+        <dev:defaultValue>None</dev:defaultValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="3" aliases="none">
+        <maml:name>Page</maml:name>
+        <maml:description>
+          <maml:para>Return items starting from the defined page number</maml:para>
+        </maml:description>
+        <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
+        <dev:type>
+          <maml:name>Int32</maml:name>
+          <maml:uri />
+        </dev:type>
+        <dev:defaultValue>0</dev:defaultValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="4" aliases="none">
+        <maml:name>Max</maml:name>
+        <maml:description>
+          <maml:para>Return the first N items</maml:para>
+          <maml:para>Allowed Value: 1-250</maml:para>
+        </maml:description>
+        <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
+        <dev:type>
+          <maml:name>Int32</maml:name>
+          <maml:uri />
+        </dev:type>
+        <dev:defaultValue>250</dev:defaultValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
+        <maml:name>AllResults</maml:name>
+        <maml:description>
+          <maml:para>Returns all items from an endpoint</maml:para>
+          <maml:para>Highly recommended to only use with filters to reduce API errors\timeouts</maml:para>
+        </maml:description>
+        <command:parameterValue required="false" variableLength="false">SwitchParameter</command:parameterValue>
+        <dev:type>
+          <maml:name>SwitchParameter</maml:name>
+          <maml:uri />
+        </dev:type>
+        <dev:defaultValue>False</dev:defaultValue>
+      </command:parameter>
+    </command:parameters>
+    <command:inputTypes />
+    <command:returnValues />
+    <maml:alertSet>
+      <maml:alert>
+        <maml:para>N/A</maml:para>
+      </maml:alert>
+    </maml:alertSet>
+    <command:examples>
+      <command:example>
+        <maml:title>-------------------------- EXAMPLE 1 --------------------------</maml:title>
+        <dev:code>Get-DattoRMMDevicePatch -DeviceUID 123456789</dev:code>
+        <dev:remarks>
+          <maml:para>Gets all patch data for the device identified by the given device Uid</maml:para>
+        </dev:remarks>
+      </command:example>
+      <command:example>
+        <maml:title>-------------------------- EXAMPLE 2 --------------------------</maml:title>
+        <dev:code>Get-DattoRMMDevicePatch -DeviceUID 123456789 -InstallStatus INSTALLED -Page 2 -Max 5</dev:code>
+        <dev:remarks>
+          <maml:para>Gets the first defined number of items from the defined page for installed patches</maml:para>
+        </dev:remarks>
+      </command:example>
+    </command:examples>
+    <command:relatedLinks>
+      <maml:navigationLink>
+        <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/Device/Get-DattoRMMDevicePatch.html</maml:linkText>
+        <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/Device/Get-DattoRMMDevicePatch.html</maml:uri>
       </maml:navigationLink>
       <maml:navigationLink>
         <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
@@ -7201,7 +7372,7 @@
           <maml:name>Method</maml:name>
           <maml:description>
             <maml:para>Defines the type of API method to use</maml:para>
-            <maml:para>Allowed values: 'GET', 'POST', 'PATCH', 'DELETE'</maml:para>
+            <maml:para>Allowed values: 'GET', 'POST', 'PUT', 'DELETE'</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -7289,7 +7460,7 @@
         <maml:name>Method</maml:name>
         <maml:description>
           <maml:para>Defines the type of API method to use</maml:para>
-          <maml:para>Allowed values: 'GET', 'POST', 'PATCH', 'DELETE'</maml:para>
+          <maml:para>Allowed values: 'GET', 'POST', 'PUT', 'DELETE'</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
         <dev:type>
@@ -7937,11 +8108,11 @@
       <command:verb>Get</command:verb>
       <command:noun>DattoRMMJob</command:noun>
       <maml:description>
-        <maml:para>Fetches data of the job identified by the given job Uid</maml:para>
+        <maml:para>Gets data of the job identified by the given job Uid</maml:para>
       </maml:description>
     </command:details>
     <maml:description>
-      <maml:para>The Get-DattoRMMJob cmdlet fetches data of the job identified by the given job Uid</maml:para>
+      <maml:para>The Get-DattoRMMJob cmdlet gets data of the job identified by the given job Uid</maml:para>
       <maml:para>JobUID is returned when creating jobs via other cmdlets</maml:para>
     </maml:description>
     <command:syntax>
@@ -7950,7 +8121,7 @@
         <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>JobUID</maml:name>
           <maml:description>
-            <maml:para>Fetches data of the job identified by the given job Uid</maml:para>
+            <maml:para>Gets data of the job identified by the given job Uid</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -7962,7 +8133,7 @@
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>Component</maml:name>
           <maml:description>
-            <maml:para>Fetches components of the job</maml:para>
+            <maml:para>Gets components of the job</maml:para>
           </maml:description>
           <dev:type>
             <maml:name>SwitchParameter</maml:name>
@@ -8013,7 +8184,7 @@
       <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>JobUID</maml:name>
         <maml:description>
-          <maml:para>Fetches data of the job identified by the given job Uid</maml:para>
+          <maml:para>Gets data of the job identified by the given job Uid</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
         <dev:type>
@@ -8025,7 +8196,7 @@
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>Component</maml:name>
         <maml:description>
-          <maml:para>Fetches components of the job</maml:para>
+          <maml:para>Gets components of the job</maml:para>
         </maml:description>
         <command:parameterValue required="false" variableLength="false">SwitchParameter</command:parameterValue>
         <dev:type>
@@ -8085,14 +8256,14 @@
         <maml:title>-------------------------- EXAMPLE 1 --------------------------</maml:title>
         <dev:code>Get-DattoRMMJob</dev:code>
         <dev:remarks>
-          <maml:para>Prompts for a job Uid and fetches data of the job</maml:para>
+          <maml:para>Prompts for a job Uid and gets data of the job</maml:para>
         </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>-------------------------- EXAMPLE 2 --------------------------</maml:title>
         <dev:code>Get-DattoRMMJob -JobUID '123456789'</dev:code>
         <dev:remarks>
-          <maml:para>Fetches data for the specific job Id</maml:para>
+          <maml:para>Gets data for the specific job Id</maml:para>
         </dev:remarks>
       </command:example>
       <command:example>
@@ -8120,11 +8291,11 @@
       <command:verb>Get</command:verb>
       <command:noun>DattoRMMJobResult</command:noun>
       <maml:description>
-        <maml:para>Fetches job results of the job identified by the job Uid for device identified by the device Uid</maml:para>
+        <maml:para>Gets job results of the job identified by the job Uid for device identified by the device Uid</maml:para>
       </maml:description>
     </command:details>
     <maml:description>
-      <maml:para>The Get-DattoRMMJobResult cmdlet fetches data of the job identified by the given job Uid</maml:para>
+      <maml:para>The Get-DattoRMMJobResult cmdlet gets data of the job identified by the given job Uid</maml:para>
       <maml:para>JobUID is returned when creating jobs via other cmdlets</maml:para>
     </maml:description>
     <command:syntax>
@@ -8133,7 +8304,7 @@
         <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>JobUID</maml:name>
           <maml:description>
-            <maml:para>Fetches data of the job identified by the given job Uid</maml:para>
+            <maml:para>Gets data of the job identified by the given job Uid</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -8145,7 +8316,7 @@
         <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>DeviceUID</maml:name>
           <maml:description>
-            <maml:para>Fetches data of the job identified by the given device Uid</maml:para>
+            <maml:para>Gets data of the job identified by the given device Uid</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -8171,7 +8342,7 @@
         <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>JobUID</maml:name>
           <maml:description>
-            <maml:para>Fetches data of the job identified by the given job Uid</maml:para>
+            <maml:para>Gets data of the job identified by the given job Uid</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -8183,7 +8354,7 @@
         <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>DeviceUID</maml:name>
           <maml:description>
-            <maml:para>Fetches data of the job identified by the given device Uid</maml:para>
+            <maml:para>Gets data of the job identified by the given device Uid</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -8209,7 +8380,7 @@
       <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>JobUID</maml:name>
         <maml:description>
-          <maml:para>Fetches data of the job identified by the given job Uid</maml:para>
+          <maml:para>Gets data of the job identified by the given job Uid</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
         <dev:type>
@@ -8221,7 +8392,7 @@
       <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>DeviceUID</maml:name>
         <maml:description>
-          <maml:para>Fetches data of the job identified by the given device Uid</maml:para>
+          <maml:para>Gets data of the job identified by the given device Uid</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
         <dev:type>
@@ -8267,28 +8438,28 @@
         <maml:title>-------------------------- EXAMPLE 1 --------------------------</maml:title>
         <dev:code>Get-DattoRMMJobResult</dev:code>
         <dev:remarks>
-          <maml:para>Prompts for a job &amp; device Uid and fetches data of the job</maml:para>
+          <maml:para>Prompts for a job &amp; device Uid and gets data of the job</maml:para>
         </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>-------------------------- EXAMPLE 2 --------------------------</maml:title>
         <dev:code>Get-DattoRMMJobResult -JobUID '123456789' -DeviceUID '987654321'</dev:code>
         <dev:remarks>
-          <maml:para>Fetches data for the specific device job Uid</maml:para>
+          <maml:para>Gets data for the specific device job Uid</maml:para>
         </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>-------------------------- EXAMPLE 3 --------------------------</maml:title>
         <dev:code>Get-DattoRMMJobResult -JobUID '123456789' -DeviceUID '987654321' -STDOUT</dev:code>
         <dev:remarks>
-          <maml:para>Fetches stdout results for the specific device job Uid</maml:para>
+          <maml:para>Gets stdout results for the specific device job Uid</maml:para>
         </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>-------------------------- EXAMPLE 4 --------------------------</maml:title>
         <dev:code>Get-DattoRMMJobResult -JobUID '123456789' -DeviceUID '987654321' -STDERR</dev:code>
         <dev:remarks>
-          <maml:para>Fetches stderr results for the specific device job Uid</maml:para>
+          <maml:para>Gets stderr results for the specific device job Uid</maml:para>
         </dev:remarks>
       </command:example>
     </command:examples>
@@ -8309,11 +8480,11 @@
       <command:verb>Get</command:verb>
       <command:noun>DattoRMMSite</command:noun>
       <maml:description>
-        <maml:para>Fetches data of the site (including total number of devices) identified by the given site Uid</maml:para>
+        <maml:para>Gets data of the site (including total number of devices) identified by the given site Uid</maml:para>
       </maml:description>
     </command:details>
     <maml:description>
-      <maml:para>The Get-DattoRMMSite cmdlet fetches data of the site (including total number of devices) identified by the given site Uid</maml:para>
+      <maml:para>The Get-DattoRMMSite cmdlet gets data of the site (including total number of devices) identified by the given site Uid</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -8321,7 +8492,7 @@
         <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="1" aliases="none">
           <maml:name>SiteUID</maml:name>
           <maml:description>
-            <maml:para>Fetches data of a  specific site identified by the given site Uid</maml:para>
+            <maml:para>Gets data of a  specific site identified by the given site Uid</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -8336,7 +8507,7 @@
       <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="1" aliases="none">
         <maml:name>SiteUID</maml:name>
         <maml:description>
-          <maml:para>Fetches data of a  specific site identified by the given site Uid</maml:para>
+          <maml:para>Gets data of a  specific site identified by the given site Uid</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
         <dev:type>
@@ -8358,14 +8529,14 @@
         <maml:title>-------------------------- EXAMPLE 1 --------------------------</maml:title>
         <dev:code>Get-DattoRMMSite</dev:code>
         <dev:remarks>
-          <maml:para>Prompts for a site Uid and fetches data of the site</maml:para>
+          <maml:para>Prompts for a site Uid and gets data of the site</maml:para>
         </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>-------------------------- EXAMPLE 2 --------------------------</maml:title>
         <dev:code>Get-DattoRMMSite -SiteUID '123456789'</dev:code>
         <dev:remarks>
-          <maml:para>Fetches data for the specific site Id</maml:para>
+          <maml:para>Gets data for the specific site Id</maml:para>
         </dev:remarks>
       </command:example>
     </command:examples>
@@ -8386,11 +8557,11 @@
       <command:verb>Get</command:verb>
       <command:noun>DattoRMMSiteAlert</command:noun>
       <maml:description>
-        <maml:para>Fetches the alerts of the site identified by the given site Uid</maml:para>
+        <maml:para>Gets the alerts of the site identified by the given site Uid</maml:para>
       </maml:description>
     </command:details>
     <maml:description>
-      <maml:para>The Get-DattoRMMSiteAlert cmdlet fetches the alerts of the site identified by the given site Uid</maml:para>
+      <maml:para>The Get-DattoRMMSiteAlert cmdlet gets the alerts of the site identified by the given site Uid</maml:para>
       <maml:para>By default only open alerts are returned</maml:para>
     </maml:description>
     <command:syntax>
@@ -8399,7 +8570,7 @@
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="1" aliases="none">
           <maml:name>AlertType</maml:name>
           <maml:description>
-            <maml:para>Fetches data of the specific alert type</maml:para>
+            <maml:para>Gets data of the specific alert type</maml:para>
             <maml:para>Allowed values:     'All'     'Resolved'     'Open'</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
@@ -8412,7 +8583,7 @@
         <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="2" aliases="none">
           <maml:name>SiteUID</maml:name>
           <maml:description>
-            <maml:para>Fetches data of the alert identified by the given site Id</maml:para>
+            <maml:para>Gets data of the site's alerts identified by the given site Id</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -8449,7 +8620,7 @@
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>Muted</maml:name>
           <maml:description>
-            <maml:para>Fetches data of muted alerts</maml:para>
+            <maml:para>Gets data of muted alerts</maml:para>
           </maml:description>
           <dev:type>
             <maml:name>SwitchParameter</maml:name>
@@ -8475,7 +8646,7 @@
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="1" aliases="none">
         <maml:name>AlertType</maml:name>
         <maml:description>
-          <maml:para>Fetches data of the specific alert type</maml:para>
+          <maml:para>Gets data of the specific alert type</maml:para>
           <maml:para>Allowed values:     'All'     'Resolved'     'Open'</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
@@ -8488,7 +8659,7 @@
       <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="2" aliases="none">
         <maml:name>SiteUID</maml:name>
         <maml:description>
-          <maml:para>Fetches data of the alert identified by the given site Id</maml:para>
+          <maml:para>Gets data of the site's alerts identified by the given site Id</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
         <dev:type>
@@ -8500,7 +8671,7 @@
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>Muted</maml:name>
         <maml:description>
-          <maml:para>Fetches data of muted alerts</maml:para>
+          <maml:para>Gets data of muted alerts</maml:para>
         </maml:description>
         <command:parameterValue required="false" variableLength="false">SwitchParameter</command:parameterValue>
         <dev:type>
@@ -8560,19 +8731,19 @@
         <maml:title>-------------------------- EXAMPLE 1 --------------------------</maml:title>
         <dev:code>Get-DattoRMMSiteAlert</dev:code>
         <dev:remarks>
-          <maml:para>Prompts for a site Uid and fetches data of the site</maml:para>
+          <maml:para>Prompts for a site Uid and gets data of the site's alerts</maml:para>
         </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>-------------------------- EXAMPLE 2 --------------------------</maml:title>
         <dev:code>Get-DattoRMMSiteAlert -SiteUID '123456789'</dev:code>
         <dev:remarks>
-          <maml:para>Fetches data for the specific site Uid</maml:para>
+          <maml:para>Gets data for the specific site Uid</maml:para>
         </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>-------------------------- EXAMPLE 3 --------------------------</maml:title>
-        <dev:code>Get-DattoRMMAccountAlert -SiteUID '123456789' -Page 2 -Max 5</dev:code>
+        <dev:code>Get-DattoRMMSiteAlert -SiteUID '123456789' -Page 2 -Max 5</dev:code>
         <dev:remarks>
           <maml:para>Get the first defined number of items from the define page</maml:para>
         </dev:remarks>
@@ -8595,11 +8766,11 @@
       <command:verb>Get</command:verb>
       <command:noun>DattoRMMSiteDevice</command:noun>
       <maml:description>
-        <maml:para>Fetches the devices records of the site identified by the given site Uid</maml:para>
+        <maml:para>Gets the devices records of the site identified by the given site Uid</maml:para>
       </maml:description>
     </command:details>
     <maml:description>
-      <maml:para>The Get-DattoRMMSiteDevice cmdlet fetches the devices records of the site identified by the given site Uid</maml:para>
+      <maml:para>The Get-DattoRMMSiteDevice cmdlet gets the devices records of the site identified by the given site Uid</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -8607,7 +8778,7 @@
         <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>SiteUID</maml:name>
           <maml:description>
-            <maml:para>Fetches data of a specific site identified by the given site Uid</maml:para>
+            <maml:para>Gets data of a specific site identified by the given site Uid</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -8619,7 +8790,7 @@
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>FilterID</maml:name>
           <maml:description>
-            <maml:para>Fetches data of a specific site device identified by the given device Id</maml:para>
+            <maml:para>Gets data of a specific site device identified by the given device Id</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -8671,7 +8842,7 @@
         <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>SiteUID</maml:name>
           <maml:description>
-            <maml:para>Fetches data of a specific site identified by the given site Uid</maml:para>
+            <maml:para>Gets data of a specific site identified by the given site Uid</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -8683,7 +8854,7 @@
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>NetworkInterface</maml:name>
           <maml:description>
-            <maml:para>Fetches the shortened devices records with network interface information of the site identified by the given site Uid</maml:para>
+            <maml:para>Gets the shortened devices records with network interface information of the site identified by the given site Uid</maml:para>
           </maml:description>
           <dev:type>
             <maml:name>SwitchParameter</maml:name>
@@ -8734,7 +8905,7 @@
       <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>SiteUID</maml:name>
         <maml:description>
-          <maml:para>Fetches data of a specific site identified by the given site Uid</maml:para>
+          <maml:para>Gets data of a specific site identified by the given site Uid</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
         <dev:type>
@@ -8746,7 +8917,7 @@
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>FilterID</maml:name>
         <maml:description>
-          <maml:para>Fetches data of a specific site device identified by the given device Id</maml:para>
+          <maml:para>Gets data of a specific site device identified by the given device Id</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
         <dev:type>
@@ -8758,7 +8929,7 @@
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>NetworkInterface</maml:name>
         <maml:description>
-          <maml:para>Fetches the shortened devices records with network interface information of the site identified by the given site Uid</maml:para>
+          <maml:para>Gets the shortened devices records with network interface information of the site identified by the given site Uid</maml:para>
         </maml:description>
         <command:parameterValue required="false" variableLength="false">SwitchParameter</command:parameterValue>
         <dev:type>
@@ -8818,14 +8989,14 @@
         <maml:title>-------------------------- EXAMPLE 1 --------------------------</maml:title>
         <dev:code>Get-DattoRMMSiteDevice</dev:code>
         <dev:remarks>
-          <maml:para>Prompts for a site Uid and fetches data of the site</maml:para>
+          <maml:para>Prompts for a site Uid and gets data of the site</maml:para>
         </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>-------------------------- EXAMPLE 2 --------------------------</maml:title>
         <dev:code>Get-DattoRMMSiteDevice -SiteUID '123456789'</dev:code>
         <dev:remarks>
-          <maml:para>Fetches data for the specific site Id</maml:para>
+          <maml:para>Gets data for the specific site Id</maml:para>
         </dev:remarks>
       </command:example>
       <command:example>
@@ -8853,11 +9024,11 @@
       <command:verb>Get</command:verb>
       <command:noun>DattoRMMSiteFilter</command:noun>
       <maml:description>
-        <maml:para>Fetches the site device filters (that the user can see with administrator role) of the site identified by the given site Uid</maml:para>
+        <maml:para>Gets the site device filters (that the user can see with administrator role) of the site identified by the given site Uid</maml:para>
       </maml:description>
     </command:details>
     <maml:description>
-      <maml:para>The Get-DattoRMMSiteFilter cmdlet fetches the site device filters (that the user can see with administrator role) of the site identified by the given site Uid</maml:para>
+      <maml:para>The Get-DattoRMMSiteFilter cmdlet gets the site device filters (that the user can see with administrator role) of the site identified by the given site Uid</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -8865,7 +9036,7 @@
         <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="1" aliases="none">
           <maml:name>SiteUID</maml:name>
           <maml:description>
-            <maml:para>Fetches data of a specific site identified by the given site Uid</maml:para>
+            <maml:para>Gets data of a specific site identified by the given site Uid</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -8917,7 +9088,7 @@
       <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="1" aliases="none">
         <maml:name>SiteUID</maml:name>
         <maml:description>
-          <maml:para>Fetches data of a specific site identified by the given site Uid</maml:para>
+          <maml:para>Gets data of a specific site identified by the given site Uid</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
         <dev:type>
@@ -8977,19 +9148,19 @@
         <maml:title>-------------------------- EXAMPLE 1 --------------------------</maml:title>
         <dev:code>Get-DattoRMMSiteFilter</dev:code>
         <dev:remarks>
-          <maml:para>Prompts for a site Uid and fetches data of the site</maml:para>
+          <maml:para>Prompts for a site Uid and gets data of the site</maml:para>
         </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>-------------------------- EXAMPLE 2 --------------------------</maml:title>
         <dev:code>Get-DattoRMMSiteFilter -SiteUID '123456789'</dev:code>
         <dev:remarks>
-          <maml:para>Fetches data for the specific site Id</maml:para>
+          <maml:para>Gets data of the site's filters identified by the given site Id</maml:para>
         </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>-------------------------- EXAMPLE 3 --------------------------</maml:title>
-        <dev:code>Get-DattoRMMAccountAlert -SiteUID '123456789' -Page 2 -Max 5</dev:code>
+        <dev:code>Get-DattoRMMSiteFilter -SiteUID '123456789' -Page 2 -Max 5</dev:code>
         <dev:remarks>
           <maml:para>Get the first defined number of items from the define page</maml:para>
         </dev:remarks>
@@ -9008,15 +9179,193 @@
   </command:command>
   <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
     <command:details>
+      <command:name>Get-DattoRMMSitePatch</command:name>
+      <command:verb>Get</command:verb>
+      <command:noun>DattoRMMSitePatch</command:noun>
+      <maml:description>
+        <maml:para>Gets patch data for devices in a given site UID</maml:para>
+      </maml:description>
+    </command:details>
+    <maml:description>
+      <maml:para>The Get-DattoRMMSitePatch cmdlet gets patch data for devices in the site identified by a given site Uid</maml:para>
+    </maml:description>
+    <command:syntax>
+      <command:syntaxItem>
+        <maml:name>Get-DattoRMMSitePatch</maml:name>
+        <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="1" aliases="none">
+          <maml:name>SiteUID</maml:name>
+          <maml:description>
+            <maml:para>Gets patch data for a specific site Uid</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
+          <dev:type>
+            <maml:name>String</maml:name>
+            <maml:uri />
+          </dev:type>
+          <dev:defaultValue>None</dev:defaultValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="2" aliases="none">
+          <maml:name>InstallStatus</maml:name>
+          <maml:description>
+            <maml:para>Show patches with the given install status</maml:para>
+            <maml:para>Allowed Values:     'INSTALLED', 'APPROVED_PENDING', 'NOT_APPROVED'</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
+          <dev:type>
+            <maml:name>String</maml:name>
+            <maml:uri />
+          </dev:type>
+          <dev:defaultValue>None</dev:defaultValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="3" aliases="none">
+          <maml:name>Page</maml:name>
+          <maml:description>
+            <maml:para>Return items starting from the defined page number</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
+          <dev:type>
+            <maml:name>Int32</maml:name>
+            <maml:uri />
+          </dev:type>
+          <dev:defaultValue>0</dev:defaultValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="4" aliases="none">
+          <maml:name>Max</maml:name>
+          <maml:description>
+            <maml:para>Return the first N items</maml:para>
+            <maml:para>Allowed Value: 1-250</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
+          <dev:type>
+            <maml:name>Int32</maml:name>
+            <maml:uri />
+          </dev:type>
+          <dev:defaultValue>250</dev:defaultValue>
+        </command:parameter>
+        <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
+          <maml:name>AllResults</maml:name>
+          <maml:description>
+            <maml:para>Returns all items from an endpoint</maml:para>
+            <maml:para>Highly recommended to only use with filters to reduce API errors\timeouts</maml:para>
+          </maml:description>
+          <dev:type>
+            <maml:name>SwitchParameter</maml:name>
+            <maml:uri />
+          </dev:type>
+          <dev:defaultValue>False</dev:defaultValue>
+        </command:parameter>
+      </command:syntaxItem>
+    </command:syntax>
+    <command:parameters>
+      <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="1" aliases="none">
+        <maml:name>SiteUID</maml:name>
+        <maml:description>
+          <maml:para>Gets patch data for a specific site Uid</maml:para>
+        </maml:description>
+        <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
+        <dev:type>
+          <maml:name>String</maml:name>
+          <maml:uri />
+        </dev:type>
+        <dev:defaultValue>None</dev:defaultValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="2" aliases="none">
+        <maml:name>InstallStatus</maml:name>
+        <maml:description>
+          <maml:para>Show patches with the given install status</maml:para>
+          <maml:para>Allowed Values:     'INSTALLED', 'APPROVED_PENDING', 'NOT_APPROVED'</maml:para>
+        </maml:description>
+        <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
+        <dev:type>
+          <maml:name>String</maml:name>
+          <maml:uri />
+        </dev:type>
+        <dev:defaultValue>None</dev:defaultValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="3" aliases="none">
+        <maml:name>Page</maml:name>
+        <maml:description>
+          <maml:para>Return items starting from the defined page number</maml:para>
+        </maml:description>
+        <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
+        <dev:type>
+          <maml:name>Int32</maml:name>
+          <maml:uri />
+        </dev:type>
+        <dev:defaultValue>0</dev:defaultValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="4" aliases="none">
+        <maml:name>Max</maml:name>
+        <maml:description>
+          <maml:para>Return the first N items</maml:para>
+          <maml:para>Allowed Value: 1-250</maml:para>
+        </maml:description>
+        <command:parameterValue required="true" variableLength="false">Int32</command:parameterValue>
+        <dev:type>
+          <maml:name>Int32</maml:name>
+          <maml:uri />
+        </dev:type>
+        <dev:defaultValue>250</dev:defaultValue>
+      </command:parameter>
+      <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
+        <maml:name>AllResults</maml:name>
+        <maml:description>
+          <maml:para>Returns all items from an endpoint</maml:para>
+          <maml:para>Highly recommended to only use with filters to reduce API errors\timeouts</maml:para>
+        </maml:description>
+        <command:parameterValue required="false" variableLength="false">SwitchParameter</command:parameterValue>
+        <dev:type>
+          <maml:name>SwitchParameter</maml:name>
+          <maml:uri />
+        </dev:type>
+        <dev:defaultValue>False</dev:defaultValue>
+      </command:parameter>
+    </command:parameters>
+    <command:inputTypes />
+    <command:returnValues />
+    <maml:alertSet>
+      <maml:alert>
+        <maml:para>N/A</maml:para>
+      </maml:alert>
+    </maml:alertSet>
+    <command:examples>
+      <command:example>
+        <maml:title>-------------------------- EXAMPLE 1 --------------------------</maml:title>
+        <dev:code>Get-DattoRMMSitePatch -SiteUID '123456789'</dev:code>
+        <dev:remarks>
+          <maml:para>Gets patch data for devices in the defined site UID</maml:para>
+        </dev:remarks>
+      </command:example>
+      <command:example>
+        <maml:title>-------------------------- EXAMPLE 2 --------------------------</maml:title>
+        <dev:code>Get-DattoRMMSitePatch -SiteUID '123456789' -InstallStatus 'INSTALLED' -Page 2 -Max 5</dev:code>
+        <dev:remarks>
+          <maml:para>Gets the first defined number of items from the defined page for installed patches</maml:para>
+        </dev:remarks>
+      </command:example>
+    </command:examples>
+    <command:relatedLinks>
+      <maml:navigationLink>
+        <maml:linkText>https://celerium.github.io/Celerium.DattoRMM/site/Site/Get-DattoRMMSitePatch.html</maml:linkText>
+        <maml:uri>https://celerium.github.io/Celerium.DattoRMM/site/Site/Get-DattoRMMSitePatch.html</maml:uri>
+      </maml:navigationLink>
+      <maml:navigationLink>
+        <maml:linkText>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:linkText>
+        <maml:uri>https://zinfandel-api.centrastage.net/api/swagger-ui/index.html</maml:uri>
+      </maml:navigationLink>
+    </command:relatedLinks>
+  </command:command>
+  <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
+    <command:details>
       <command:name>Get-DattoRMMSiteSetting</command:name>
       <command:verb>Get</command:verb>
       <command:noun>DattoRMMSiteSetting</command:noun>
       <maml:description>
-        <maml:para>Fetches settings of the site identified by the given site Uid</maml:para>
+        <maml:para>Gets settings of the site identified by the given site Uid</maml:para>
       </maml:description>
     </command:details>
     <maml:description>
-      <maml:para>The Get-DattoRMMSiteSetting cmdlet fetches settings of the site identified by the given site Uid</maml:para>
+      <maml:para>The Get-DattoRMMSiteSetting cmdlet gets settings of the site identified by the given site Uid</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -9024,7 +9373,7 @@
         <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="1" aliases="none">
           <maml:name>SiteUID</maml:name>
           <maml:description>
-            <maml:para>Fetches data of a specific site identified by the given site Uid</maml:para>
+            <maml:para>Gets data of a specific site identified by the given site Uid</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -9039,7 +9388,7 @@
       <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="1" aliases="none">
         <maml:name>SiteUID</maml:name>
         <maml:description>
-          <maml:para>Fetches data of a specific site identified by the given site Uid</maml:para>
+          <maml:para>Gets data of a specific site identified by the given site Uid</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
         <dev:type>
@@ -9061,14 +9410,14 @@
         <maml:title>-------------------------- EXAMPLE 1 --------------------------</maml:title>
         <dev:code>Get-DattoRMMSiteSetting</dev:code>
         <dev:remarks>
-          <maml:para>Prompts for a site Uid and fetches data of the site</maml:para>
+          <maml:para>Prompts for a site Uid and gets data of the site</maml:para>
         </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>-------------------------- EXAMPLE 2 --------------------------</maml:title>
         <dev:code>Get-DattoRMMSiteSetting -SiteUID '123456789'</dev:code>
         <dev:remarks>
-          <maml:para>Fetches data for the specific site Id</maml:para>
+          <maml:para>Gets data for the specific site Id</maml:para>
         </dev:remarks>
       </command:example>
     </command:examples>
@@ -9089,11 +9438,11 @@
       <command:verb>Get</command:verb>
       <command:noun>DattoRMMSiteVariable</command:noun>
       <maml:description>
-        <maml:para>Fetches the variables of the site identified by the given site Uid</maml:para>
+        <maml:para>Gets the variables of the site identified by the given site Uid</maml:para>
       </maml:description>
     </command:details>
     <maml:description>
-      <maml:para>The Get-DattoRMMSiteVariable cmdlet fetches the variables of the site identified by the given site Uid</maml:para>
+      <maml:para>The Get-DattoRMMSiteVariable cmdlet gets the variables of the site identified by the given site Uid</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -9101,7 +9450,7 @@
         <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="1" aliases="none">
           <maml:name>SiteUID</maml:name>
           <maml:description>
-            <maml:para>Fetches data of a specific site identified by the given site Uid</maml:para>
+            <maml:para>Gets data of a specific site identified by the given site Uid</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
           <dev:type>
@@ -9153,7 +9502,7 @@
       <command:parameter required="true" variableLength="true" globbing="false" pipelineInput="False" position="1" aliases="none">
         <maml:name>SiteUID</maml:name>
         <maml:description>
-          <maml:para>Fetches data of a specific site identified by the given site Uid</maml:para>
+          <maml:para>Gets data of a specific site identified by the given site Uid</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
         <dev:type>
@@ -9213,21 +9562,21 @@
         <maml:title>-------------------------- EXAMPLE 1 --------------------------</maml:title>
         <dev:code>Get-DattoRMMSiteVariable</dev:code>
         <dev:remarks>
-          <maml:para>Prompts for a site Uid and fetches data of the site</maml:para>
+          <maml:para>Prompts for a site Uid and gets data of the site</maml:para>
         </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>-------------------------- EXAMPLE 2 --------------------------</maml:title>
         <dev:code>Get-DattoRMMSiteVariable -SiteUID '123456789'</dev:code>
         <dev:remarks>
-          <maml:para>Fetches data for the specific site Id</maml:para>
+          <maml:para>Gets data for the specific site Id</maml:para>
         </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>-------------------------- EXAMPLE 3 --------------------------</maml:title>
-        <dev:code>Get-DattoRMMAccountAlert -SiteUID '123456789' -Page 2 -Max 5</dev:code>
+        <dev:code>Get-DattoRMMSiteVariable -SiteUID '123456789' -Page 2 -Max 5</dev:code>
         <dev:remarks>
-          <maml:para>Get the first defined number of items from the define page</maml:para>
+          <maml:para>Get the first defined number of items from the defined page</maml:para>
         </dev:remarks>
       </command:example>
     </command:examples>
@@ -10869,7 +11218,7 @@
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>Status</maml:name>
           <maml:description>
-            <maml:para>Fetches the system status (start date, status and version)</maml:para>
+            <maml:para>Gets the system status (start date, status and version)</maml:para>
           </maml:description>
           <dev:type>
             <maml:name>SwitchParameter</maml:name>
@@ -10883,7 +11232,7 @@
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>RequestRate</maml:name>
           <maml:description>
-            <maml:para>Fetches the request rate status for the authenticated user's account</maml:para>
+            <maml:para>Gets the request rate status for the authenticated user's account</maml:para>
           </maml:description>
           <dev:type>
             <maml:name>SwitchParameter</maml:name>
@@ -10897,7 +11246,7 @@
         <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
           <maml:name>Pagination</maml:name>
           <maml:description>
-            <maml:para>Fetches the pagination configurations</maml:para>
+            <maml:para>Gets the pagination configurations</maml:para>
           </maml:description>
           <dev:type>
             <maml:name>SwitchParameter</maml:name>
@@ -10911,7 +11260,7 @@
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>Status</maml:name>
         <maml:description>
-          <maml:para>Fetches the system status (start date, status and version)</maml:para>
+          <maml:para>Gets the system status (start date, status and version)</maml:para>
         </maml:description>
         <command:parameterValue required="false" variableLength="false">SwitchParameter</command:parameterValue>
         <dev:type>
@@ -10923,7 +11272,7 @@
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>RequestRate</maml:name>
         <maml:description>
-          <maml:para>Fetches the request rate status for the authenticated user's account</maml:para>
+          <maml:para>Gets the request rate status for the authenticated user's account</maml:para>
         </maml:description>
         <command:parameterValue required="false" variableLength="false">SwitchParameter</command:parameterValue>
         <dev:type>
@@ -10935,7 +11284,7 @@
       <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="named" aliases="none">
         <maml:name>Pagination</maml:name>
         <maml:description>
-          <maml:para>Fetches the pagination configurations</maml:para>
+          <maml:para>Gets the pagination configurations</maml:para>
         </maml:description>
         <command:parameterValue required="false" variableLength="false">SwitchParameter</command:parameterValue>
         <dev:type>
@@ -10957,21 +11306,21 @@
         <maml:title>-------------------------- EXAMPLE 1 --------------------------</maml:title>
         <dev:code>Get-DattoRMMSystem</dev:code>
         <dev:remarks>
-          <maml:para>Fetches the system status (start date, status and version)</maml:para>
+          <maml:para>Gets the system status (start date, status and version)</maml:para>
         </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>-------------------------- EXAMPLE 2 --------------------------</maml:title>
         <dev:code>Get-DattoRMMSystem -RequestRate</dev:code>
         <dev:remarks>
-          <maml:para>Fetches the request rate status for the authenticated user's account</maml:para>
+          <maml:para>Gets the request rate status for the authenticated user's account</maml:para>
         </dev:remarks>
       </command:example>
       <command:example>
         <maml:title>-------------------------- EXAMPLE 3 --------------------------</maml:title>
         <dev:code>Get-DattoRMMSystem -Pagination</dev:code>
         <dev:remarks>
-          <maml:para>Fetches the pagination configurations</maml:para>
+          <maml:para>Gets the pagination configurations</maml:para>
         </dev:remarks>
       </command:example>
     </command:examples>

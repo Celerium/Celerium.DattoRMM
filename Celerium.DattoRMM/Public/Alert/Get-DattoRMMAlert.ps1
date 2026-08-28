@@ -1,10 +1,10 @@
 function Get-DattoRMMAlert {
 <#
     .SYNOPSIS
-        Fetches data of the alert identified by the given alert Uid
+        Gets data of the alert identified by the given alert Uid
 
     .DESCRIPTION
-        The Get-DattoRMMAlert cmdlet fetches data of the alert
+        The Get-DattoRMMAlert cmdlet gets data of the alert
         identified by the given alert Uid
 
     .PARAMETER AlertUID

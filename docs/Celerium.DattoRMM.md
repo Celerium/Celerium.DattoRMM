@@ -28,90 +28,96 @@ Exports the DattoRMM BaseURI, API, & JSON configuration information to file
 Gets the stored JWT access token
 
 ### [Get-DattoRMMAccount](site/Account/Get-DattoRMMAccount.md)
-Fetches the authenticated user's account data.
+Gets the authenticated user's account data.
 
 ### [Get-DattoRMMAccountAlert](site/Account/Get-DattoRMMAccountAlert.md)
-Fetches the account alerts
+Gets the account alerts
 
 ### [Get-DattoRMMAccountComponent](site/Account/Get-DattoRMMAccountComponent.md)
-Fetches the account components
+Gets the account components
 
 ### [Get-DattoRMMAccountDevice](site/Account/Get-DattoRMMAccountDevice.md)
-Fetches the devices of the authenticated user's account.
+Gets the devices of the authenticated user's account.
 
 ### [Get-DattoRMMAccountDnetSiteMapping](site/Account/Get-DattoRMMAccountDnetSiteMapping.md)
 Get the sites records with its mapped dnet network id for
 the authenticated user's account
 
 ### [Get-DattoRMMAccountSite](site/Account/Get-DattoRMMAccountSite.md)
-Fetches the site records of the authenticated user's account
+Gets the site records of the authenticated user's account
 
 ### [Get-DattoRMMAccountUser](site/Account/Get-DattoRMMAccountUser.md)
-Fetches the authentication users records of the
+Gets the authentication users records of the
 authenticated user's account
 
 ### [Get-DattoRMMAccountVariable](site/Account/Get-DattoRMMAccountVariable.md)
-Fetches the account variables
+Gets the account variables
 
 ### [Get-DattoRMMActivityLog](site/Activity-Logs/Get-DattoRMMActivityLog.md)
-Fetches the activity logs
+Gets the activity logs
 
 ### [Get-DattoRMMAlert](site/Alert/Get-DattoRMMAlert.md)
-Fetches data of the alert identified by the given alert Uid
+Gets data of the alert identified by the given alert Uid
 
 ### [Get-DattoRMMAPIKey](site/Internal/Get-DattoRMMAPIKey.md)
 Gets the DattoRMM API key
 
 ### [Get-DattoRMMAuditDevice](site/Audit/Get-DattoRMMAuditDevice.md)
-Fetches audit data of the generic device identified the given device Uid
+Gets audit data of the generic device identified the given device Uid
 
 ### [Get-DattoRMMAuditESXI](site/Audit/Get-DattoRMMAuditESXI.md)
-Fetches audit data of the ESXi host identified the given device Uid
+Gets audit data of the ESXi host identified the given device Uid
 
 ### [Get-DattoRMMAuditPrinter](site/Audit/Get-DattoRMMAuditPrinter.md)
-Fetches audit data of the printer identified with the given device Uid
+Gets audit data of the printer identified with the given device Uid
 
 ### [Get-DattoRMMBaseURI](site/Internal/Get-DattoRMMBaseURI.md)
 Shows the DattoRMM base URI
 
 ### [Get-DattoRMMDevice](site/Device/Get-DattoRMMDevice.md)
-Fetches data of the device identified by the given device Uid
+Gets data of the device identified by the given device Uid
 
 ### [Get-DattoRMMDeviceAlert](site/Device/Get-DattoRMMDeviceAlert.md)
-Fetches the alerts of the device identified by the given device Uid
+Gets the alerts of the device identified by the given device Uid
+
+### [Get-DattoRMMDevicePatch](site/Device/Get-DattoRMMDevicePatch.md)
+Gets patch data of the device identified by the given device Uid
 
 ### [Get-DattoRMMFilter](site/Filter/Get-DattoRMMFilter.md)
 Gets both default & custom filters
 
 ### [Get-DattoRMMJob](site/Job/Get-DattoRMMJob.md)
-Fetches data of the job identified by the given job Uid
+Gets data of the job identified by the given job Uid
 
 ### [Get-DattoRMMJobResult](site/Job/Get-DattoRMMJobResult.md)
-Fetches job results of the job identified by the job Uid
+Gets job results of the job identified by the job Uid
 for device identified by the device Uid
 
 ### [Get-DattoRMMModuleSettings](site/Internal/Get-DattoRMMModuleSettings.md)
 Gets the saved DattoRMM configuration settings
 
 ### [Get-DattoRMMSite](site/Site/Get-DattoRMMSite.md)
-Fetches data of the site (including total number of devices)
+Gets data of the site (including total number of devices)
 identified by the given site Uid
 
 ### [Get-DattoRMMSiteAlert](site/Site/Get-DattoRMMSiteAlert.md)
-Fetches the alerts of the site identified by the given site Uid
+Gets the alerts of the site identified by the given site Uid
 
 ### [Get-DattoRMMSiteDevice](site/Site/Get-DattoRMMSiteDevice.md)
-Fetches the devices records of the site identified by the given site Uid
+Gets the devices records of the site identified by the given site Uid
 
 ### [Get-DattoRMMSiteFilter](site/Site/Get-DattoRMMSiteFilter.md)
-Fetches the site device filters (that the user can see with administrator role)
+Gets the site device filters (that the user can see with administrator role)
 of the site identified by the given site Uid
 
+### [Get-DattoRMMSitePatch](site/Site/Get-DattoRMMSitePatch.md)
+Gets patch data for devices in a given site UID
+
 ### [Get-DattoRMMSiteSetting](site/Site/Get-DattoRMMSiteSetting.md)
-Fetches settings of the site identified by the given site Uid
+Gets settings of the site identified by the given site Uid
 
 ### [Get-DattoRMMSiteVariable](site/Site/Get-DattoRMMSiteVariable.md)
-Fetches the variables of the site identified by the given site Uid
+Gets the variables of the site identified by the given site Uid
 
 ### [Get-DattoRMMSystem](site/System/Get-DattoRMMSystem.md)
 Gets various DattoRMM system operation information

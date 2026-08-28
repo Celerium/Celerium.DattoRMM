@@ -1,16 +1,16 @@
 function Get-DattoRMMAccount {
 <#
     .SYNOPSIS
-        Fetches the authenticated user's account data.
+        Gets the authenticated user's account data.
 
     .DESCRIPTION
-        The Get-DattoRMMAccount cmdlet fetches the authenticated
+        The Get-DattoRMMAccount cmdlet gets the authenticated
         user's account data
 
     .EXAMPLE
         Get-DattoRMMAccount
 
-        Fetches the authenticated user's account data
+        Gets the authenticated user's account data
 
     .NOTES
         N/A

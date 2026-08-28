@@ -11,7 +11,7 @@ title: Get-DattoRMMAccountVariable
 # Get-DattoRMMAccountVariable
 
 ## SYNOPSIS
-Fetches the account variables
+Gets the account variables
 
 ## SYNTAX
 
@@ -20,7 +20,7 @@ Get-DattoRMMAccountVariable [[-Page] <Int32>] [[-Max] <Int32>] [-AllResults] [<C
 ```
 
 ## DESCRIPTION
-The Get-DattoRMMAccountVariable cmdlet fetches the account variables
+The Get-DattoRMMAccountVariable cmdlet gets the account variables
 
 ## EXAMPLES
 

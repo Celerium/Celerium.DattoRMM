@@ -11,7 +11,7 @@ title: Get-DattoRMMAuditDevice
 # Get-DattoRMMAuditDevice
 
 ## SYNOPSIS
-Fetches audit data of the generic device identified the given device Uid
+Gets audit data of the generic device identified the given device Uid
 
 ## SYNTAX
 
@@ -32,7 +32,7 @@ Get-DattoRMMAuditDevice -MacAddress <String> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The Get-DattoRMMAuditDevice cmdlet fetches audit data of the
+The Get-DattoRMMAuditDevice cmdlet gets audit data of the
 generic device identified the given device Uid
 
 The device class must be of type "device"
@@ -70,7 +70,7 @@ Returns audit data from the specific device with the given MAC address
 ## PARAMETERS
 
 ### -DeviceUID
-Fetches audit data of the generic device identified
+Gets audit data of the generic device identified
 the given device Uid
 
 ```yaml
@@ -86,7 +86,7 @@ Accept wildcard characters: False
 ```
 
 ### -Software
-Fetches audited software of the generic device identified
+Gets audited software of the generic device identified
 the given device Uid
 
 ```yaml
@@ -102,7 +102,7 @@ Accept wildcard characters: False
 ```
 
 ### -MacAddress
-Fetches audit data of the generic device(s) identified by the given
+Gets audit data of the generic device(s) identified by the given
 MAC address in format: XXXXXXXXXXXX
 
 ```yaml

@@ -11,7 +11,7 @@ title: Get-DattoRMMSiteFilter
 # Get-DattoRMMSiteFilter
 
 ## SYNOPSIS
-Fetches the site device filters (that the user can see with administrator role)
+Gets the site device filters (that the user can see with administrator role)
 of the site identified by the given site Uid
 
 ## SYNTAX
@@ -22,7 +22,7 @@ Get-DattoRMMSiteFilter [-SiteUID] <String> [[-Page] <Int32>] [[-Max] <Int32>] [-
 ```
 
 ## DESCRIPTION
-The Get-DattoRMMSiteFilter cmdlet fetches the site device filters
+The Get-DattoRMMSiteFilter cmdlet gets the site device filters
 (that the user can see with administrator role) of the site identified
 by the given site Uid
 
@@ -33,18 +33,18 @@ by the given site Uid
 Get-DattoRMMSiteFilter
 ```
 
-Prompts for a site Uid and fetches data of the site
+Prompts for a site Uid and gets data of the site
 
 ### EXAMPLE 2
 ```powershell
 Get-DattoRMMSiteFilter -SiteUID '123456789'
 ```
 
-Fetches data for the specific site Id
+Gets data of the site's filters identified by the given site Id
 
 ### EXAMPLE 3
 ```powershell
-Get-DattoRMMAccountAlert -SiteUID '123456789' -Page 2 -Max 5
+Get-DattoRMMSiteFilter -SiteUID '123456789' -Page 2 -Max 5
 ```
 
 Get the first defined number of items from the define page
@@ -52,7 +52,7 @@ Get the first defined number of items from the define page
 ## PARAMETERS
 
 ### -SiteUID
-Fetches data of a specific site identified by the given site Uid
+Gets data of a specific site identified by the given site Uid
 
 ```yaml
 Type: String

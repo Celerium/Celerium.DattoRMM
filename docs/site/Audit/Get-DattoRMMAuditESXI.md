@@ -11,7 +11,7 @@ title: Get-DattoRMMAuditESXI
 # Get-DattoRMMAuditESXI
 
 ## SYNOPSIS
-Fetches audit data of the ESXi host identified the given device Uid
+Gets audit data of the ESXi host identified the given device Uid
 
 ## SYNTAX
 
@@ -20,7 +20,7 @@ Get-DattoRMMAuditESXI [-DeviceUID] <String> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The Get-DattoRMMAuditESXI cmdlet fetches audit data of the
+The Get-DattoRMMAuditESXI cmdlet gets audit data of the
 ESXi host identified the given device Uid
 
 The device class must be of type "esxihost"

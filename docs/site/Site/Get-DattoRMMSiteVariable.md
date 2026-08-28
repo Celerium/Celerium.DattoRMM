@@ -11,7 +11,7 @@ title: Get-DattoRMMSiteVariable
 # Get-DattoRMMSiteVariable
 
 ## SYNOPSIS
-Fetches the variables of the site identified by the given site Uid
+Gets the variables of the site identified by the given site Uid
 
 ## SYNTAX
 
@@ -21,7 +21,7 @@ Get-DattoRMMSiteVariable [-SiteUID] <String> [[-Page] <Int32>] [[-Max] <Int32>] 
 ```
 
 ## DESCRIPTION
-The Get-DattoRMMSiteVariable cmdlet fetches the variables of the site
+The Get-DattoRMMSiteVariable cmdlet gets the variables of the site
 identified by the given site Uid
 
 ## EXAMPLES
@@ -31,26 +31,26 @@ identified by the given site Uid
 Get-DattoRMMSiteVariable
 ```
 
-Prompts for a site Uid and fetches data of the site
+Prompts for a site Uid and gets data of the site
 
 ### EXAMPLE 2
 ```powershell
 Get-DattoRMMSiteVariable -SiteUID '123456789'
 ```
 
-Fetches data for the specific site Id
+Gets data for the specific site Id
 
 ### EXAMPLE 3
 ```powershell
-Get-DattoRMMAccountAlert -SiteUID '123456789' -Page 2 -Max 5
+Get-DattoRMMSiteVariable -SiteUID '123456789' -Page 2 -Max 5
 ```
 
-Get the first defined number of items from the define page
+Get the first defined number of items from the defined page
 
 ## PARAMETERS
 
 ### -SiteUID
-Fetches data of a specific site identified by the given site Uid
+Gets data of a specific site identified by the given site Uid
 
 ```yaml
 Type: String

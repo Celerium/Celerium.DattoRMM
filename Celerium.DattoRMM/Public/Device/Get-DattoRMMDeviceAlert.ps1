@@ -1,14 +1,14 @@
 function Get-DattoRMMDeviceAlert {
 <#
     .SYNOPSIS
-        Fetches the alerts of the device identified by the given device Uid
+        Gets the alerts of the device identified by the given device Uid
 
     .DESCRIPTION
-        The Get-DattoRMMDeviceAlert cmdlet fetches the alerts of the device
+        The Get-DattoRMMDeviceAlert cmdlet gets the alerts of the device
         identified by the given device Uid
 
     .PARAMETER AlertType
-        Fetches data of the specific alert type
+        Gets data of the specific alert type
 
         Allowed values:
             'All'
@@ -16,10 +16,10 @@ function Get-DattoRMMDeviceAlert {
             'Open'
 
     .PARAMETER DeviceUID
-        Fetches data of the alert identified by the given device Id
+        Gets data of the alert identified by the given device Id
 
     .PARAMETER Muted
-        Fetches data of muted alerts
+        Gets data of muted alerts
 
     .PARAMETER Page
         Return items starting from the defined page number
@@ -35,19 +35,14 @@ function Get-DattoRMMDeviceAlert {
         Highly recommended to only use with filters to reduce API errors\timeouts
 
     .EXAMPLE
-        Get-DattoRMMDeviceAlert
-
-        Prompts for a device Uid and fetches data of the device
-
-    .EXAMPLE
         Get-DattoRMMDeviceAlert -DeviceUID '123456789'
 
-        Fetches data for the specific device Uid
+        Gets open alert data for the specific device Uid
 
     .EXAMPLE
-        Get-DattoRMMDeviceAlert -MacAddress '00155DC07E1F'
+        Get-DattoRMMDeviceAlert -DeviceUID '123456789' -AlertType Open -Page 2 -Max 5
 
-        Fetches data for the specific device mac address
+        Gets the first defined number of open alerts from the defined page for the specific device Uid
 
     .NOTES
         N/A

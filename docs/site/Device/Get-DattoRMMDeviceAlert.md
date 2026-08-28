@@ -11,7 +11,7 @@ title: Get-DattoRMMDeviceAlert
 # Get-DattoRMMDeviceAlert
 
 ## SYNOPSIS
-Fetches the alerts of the device identified by the given device Uid
+Gets the alerts of the device identified by the given device Uid
 
 ## SYNTAX
 
@@ -21,36 +21,29 @@ Get-DattoRMMDeviceAlert [[-AlertType] <String>] [-DeviceUID] <String> [-Muted] [
 ```
 
 ## DESCRIPTION
-The Get-DattoRMMDeviceAlert cmdlet fetches the alerts of the device
+The Get-DattoRMMDeviceAlert cmdlet gets the alerts of the device
 identified by the given device Uid
 
 ## EXAMPLES
 
 ### EXAMPLE 1
 ```powershell
-Get-DattoRMMDeviceAlert
-```
-
-Prompts for a device Uid and fetches data of the device
-
-### EXAMPLE 2
-```powershell
 Get-DattoRMMDeviceAlert -DeviceUID '123456789'
 ```
 
-Fetches data for the specific device Uid
+Gets open alert data for the specific device Uid
 
-### EXAMPLE 3
+### EXAMPLE 2
 ```powershell
-Get-DattoRMMDeviceAlert -MacAddress '00155DC07E1F'
+Get-DattoRMMDeviceAlert -DeviceUID '123456789' -AlertType Open -Page 2 -Max 5
 ```
 
-Fetches data for the specific device mac address
+Gets the first defined number of open alerts from the defined page for the specific device Uid
 
 ## PARAMETERS
 
 ### -AlertType
-Fetches data of the specific alert type
+Gets data of the specific alert type
 
 Allowed values:
     'All'
@@ -70,7 +63,7 @@ Accept wildcard characters: False
 ```
 
 ### -DeviceUID
-Fetches data of the alert identified by the given device Id
+Gets data of the alert identified by the given device Id
 
 ```yaml
 Type: String
@@ -85,7 +78,7 @@ Accept wildcard characters: False
 ```
 
 ### -Muted
-Fetches data of muted alerts
+Gets data of muted alerts
 
 ```yaml
 Type: SwitchParameter

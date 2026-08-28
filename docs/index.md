@@ -68,7 +68,7 @@ DattoRMM features a REST API that makes use of common HTTP request methods. In o
 
 Additionally, PowerShell's `verb-noun` nomenclature is respected. Each noun is prefixed with `DattoRMM` in an attempt to prevent naming problems.
 
-For example, one might access the /users/ API endpoint by running the following PowerShell command with the appropriate parameters:
+For example, one might access the /Account or /Site API endpoints by running the following PowerShell command with the appropriate parameters:
 
 ```posh
 Get-DattoRMMAccount
@@ -164,6 +164,7 @@ Calling an API resource is as simple as running `Get-DattoRMM<resourceName>`
 |Device       |/v2/device/{deviceUid}/alerts/resolved      |GET   |Get-DattoRMMDeviceAlert           |
 |Device       |/v2/device/{deviceUid}/alerts/open          |GET   |Get-DattoRMMDeviceAlert           |
 |Device       |/v2/device/macAddress/{macAddress}          |GET   |Get-DattoRMMDevice                |
+|Device       |/v2/device/{deviceUid}/patches              |GET   |Get-DattoRMMDevicePatch           |
 |Device       |/v2/device/id/{deviceId}                    |GET   |Get-DattoRMMDevice                |
 |Filter       |/v2/filter/default-filters                  |GET   |Get-DattoRMMFilter                |
 |Filter       |/v2/filter/custom-filters                   |GET   |Get-DattoRMMFilter                |
@@ -183,6 +184,7 @@ Calling an API resource is as simple as running `Get-DattoRMM<resourceName>`
 |Site         |/v2/site/{siteUid}/variables                |GET   |Get-DattoRMMSiteVariable          |
 |Site         |/v2/site/{siteUid}/settings                 |GET   |Get-DattoRMMSiteSetting           |
 |Site         |/v2/site/{siteUid}/filters                  |GET   |Get-DattoRMMSiteFilter            |
+|Site         |/v2/site/{siteUid}/patches                  |GET   |Get-DattoRMMSitePatch             |
 |Site         |/v2/site/{siteUid}/devices                  |GET   |Get-DattoRMMSiteDevice            |
 |Site         |/v2/site/{siteUid}/devices/network-interface|GET   |Get-DattoRMMSiteDevice            |
 |Site         |/v2/site/{siteUid}/alerts/resolved          |GET   |Get-DattoRMMSiteAlert             |

@@ -1,37 +1,37 @@
 function Get-DattoRMMDevice {
 <#
     .SYNOPSIS
-        Fetches data of the device identified by the given device Uid
+        Gets data of the device identified by the given device Uid
 
     .DESCRIPTION
-        The Get-DattoRMMDevice cmdlet fetches data of the device
+        The Get-DattoRMMDevice cmdlet gets data of the device
         identified by the given device Uid
 
     .PARAMETER DeviceUID
-        Fetches data of the device identified by the given device Uid
+        Gets data of the device identified by the given device Uid
 
     .PARAMETER DeviceID
-        Fetches data of the device identified by the given device Id
+        Gets data of the device identified by the given device Id
 
     .PARAMETER MacAddress
-        Fetches data of the device(s) identified by the given MAC address
+        Gets data of the device(s) identified by the given MAC address
 
         Format: XXXXXXXXXXXX
 
     .EXAMPLE
         Get-DattoRMMDevice
 
-        Prompts for a device Uid and fetches data of the device
+        Prompts for a device Uid and gets data of the device
 
     .EXAMPLE
         Get-DattoRMMDevice -DeviceID '123456789'
 
-        Fetches data for the specific device Id
+        Gets data for the specific device Id
 
     .EXAMPLE
         Get-DattoRMMDevice -MacAddress '00155DC07E1F'
 
-        Fetches data for the specific device mac address
+        Gets data for the specific device mac address
 
     .NOTES
         N/A

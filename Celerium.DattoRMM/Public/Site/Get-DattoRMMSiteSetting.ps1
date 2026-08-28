@@ -1,24 +1,24 @@
 function Get-DattoRMMSiteSetting {
 <#
     .SYNOPSIS
-        Fetches settings of the site identified by the given site Uid
+        Gets settings of the site identified by the given site Uid
 
     .DESCRIPTION
-        The Get-DattoRMMSiteSetting cmdlet fetches settings of the site
+        The Get-DattoRMMSiteSetting cmdlet gets settings of the site
         identified by the given site Uid
 
     .PARAMETER SiteUID
-        Fetches data of a specific site identified by the given site Uid
+        Gets data of a specific site identified by the given site Uid
 
     .EXAMPLE
         Get-DattoRMMSiteSetting
 
-        Prompts for a site Uid and fetches data of the site
+        Prompts for a site Uid and gets data of the site
 
     .EXAMPLE
         Get-DattoRMMSiteSetting -SiteUID '123456789'
 
-        Fetches data for the specific site Id
+        Gets data for the specific site Id
 
     .NOTES
         N/A

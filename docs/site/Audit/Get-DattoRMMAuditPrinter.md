@@ -11,7 +11,7 @@ title: Get-DattoRMMAuditPrinter
 # Get-DattoRMMAuditPrinter
 
 ## SYNOPSIS
-Fetches audit data of the printer identified with the given device Uid
+Gets audit data of the printer identified with the given device Uid
 
 ## SYNTAX
 
@@ -20,7 +20,7 @@ Get-DattoRMMAuditPrinter [-DeviceUID] <String> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The Get-DattoRMMAuditPrinter cmdlet fetches audit data of the
+The Get-DattoRMMAuditPrinter cmdlet gets audit data of the
 printer identified the given device Uid
 
 The device class must be of type "printer"

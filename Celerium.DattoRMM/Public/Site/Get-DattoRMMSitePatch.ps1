@@ -1,21 +1,20 @@
-function Get-DattoRMMSiteDevice {
+function Get-DattoRMMSitePatch {
 <#
     .SYNOPSIS
-        Gets the devices records of the site identified by the given site Uid
+        Gets patch data for devices in a given site UID
 
     .DESCRIPTION
-        The Get-DattoRMMSiteDevice cmdlet gets the devices records of the
-        site identified by the given site Uid
+        The Get-DattoRMMSitePatch cmdlet gets patch data for devices in the
+        site identified by a given site Uid
 
     .PARAMETER SiteUID
-        Gets data of a specific site identified by the given site Uid
+        Gets patch data for a specific site Uid
 
-    .PARAMETER FilterID
-        Gets data of a specific site device identified by the given device Id
+    .PARAMETER InstallStatus
+        Show patches with the given install status
 
-    .PARAMETER NetworkInterface
-        Gets the shortened devices records with network interface information
-        of the site identified by the given site Uid
+        Allowed Values:
+            'INSTALLED', 'APPROVED_PENDING', 'NOT_APPROVED'
 
     .PARAMETER Page
         Return items starting from the defined page number
@@ -31,48 +30,40 @@ function Get-DattoRMMSiteDevice {
         Highly recommended to only use with filters to reduce API errors\timeouts
 
     .EXAMPLE
-        Get-DattoRMMSiteDevice
+        Get-DattoRMMSitePatch -SiteUID '123456789'
 
-        Prompts for a site Uid and gets data of the site
-
-    .EXAMPLE
-        Get-DattoRMMSiteDevice -SiteUID '123456789'
-
-        Gets data for the specific site Id
+        Gets patch data for devices in the defined site UID
 
     .EXAMPLE
-        Get-DattoRMMAccountAlert -SiteUID '123456789' -Page 2 -Max 5
+        Get-DattoRMMSitePatch -SiteUID '123456789' -InstallStatus 'INSTALLED' -Page 2 -Max 5
 
-        Get the first defined number of items from the define page
+        Gets the first defined number of items from the defined page for installed patches
 
     .NOTES
         N/A
 
     .LINK
-        https://celerium.github.io/Celerium.DattoRMM/site/Site/Get-DattoRMMSiteDevice.html
+        https://celerium.github.io/Celerium.DattoRMM/site/Site/Get-DattoRMMSitePatch.html
 
     .LINK
         https://zinfandel-api.centrastage.net/api/swagger-ui/index.html
 #>
 
-    [CmdletBinding(DefaultParameterSetName = 'DeviceOnly')]
+    [CmdletBinding(DefaultParameterSetName = 'GetSitePatch')]
     Param (
         [Parameter( Mandatory = $true )]
         [ValidateNotNullOrEmpty()]
         [string]$SiteUID,
 
-        [Parameter( Mandatory = $false, ParameterSetName = 'DeviceOnly' )]
-        [ValidateNotNullOrEmpty()]
-        [string]$FilterID,
-
-        [Parameter( Mandatory = $false, ParameterSetName = 'DeviceNetworkInterface' )]
-        [switch]$NetworkInterface,
+        [Parameter( Mandatory = $false )]
+        [ValidateSet('INSTALLED', 'APPROVED_PENDING', 'NOT_APPROVED')]
+        [string]$InstallStatus,
 
         [Parameter( Mandatory = $false )]
         [ValidateRange(0, [int]::MaxValue)]
         [int]$Page,
 
-        [Parameter( Mandatory = $false )]
+        [Parameter( Mandatory = $false)]
         [ValidateRange(1, 250)]
         [int]$Max = 250,
 
@@ -92,17 +83,15 @@ function Get-DattoRMMSiteDevice {
 
         Write-Verbose "[ $FunctionName ] - Running the [ $($PSCmdlet.ParameterSetName) ] parameterSet"
 
-        switch ($PSCmdlet.ParameterSetName){
-            'DeviceOnly'                { $ResourceUri = "/site/$SiteUID/devices" }
-            'DeviceNetworkInterface'    { $ResourceUri = "/site/$SiteUID/devices/network-interface" }
-        }
+        $ResourceUri = "/site/$SiteUID/patches"
 
         $UriParameters = @{}
 
         #Region     [ Parameter Translation ]
 
-        if ($Page)  { $UriParameters['page']    = $Page }
-        if ($Max)   { $UriParameters['max']     = $Max }
+        if ($InstallStatus) { $UriParameters['installStatus']   = $InstallStatus }
+        if ($Page)          { $UriParameters['page']            = $Page }
+        if ($Max)           { $UriParameters['max']             = $Max }
 
         #EndRegion  [ Parameter Translation ]
 

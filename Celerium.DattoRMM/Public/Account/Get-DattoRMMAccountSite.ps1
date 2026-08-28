@@ -1,10 +1,10 @@
 function Get-DattoRMMAccountSite {
 <#
     .SYNOPSIS
-        Fetches the site records of the authenticated user's account
+        Gets the site records of the authenticated user's account
 
     .DESCRIPTION
-        The Get-DattoRMMAccountSite cmdlet fetches the site records
+        The Get-DattoRMMAccountSite cmdlet gets the site records
         of the authenticated user's account
 
     .PARAMETER SiteName

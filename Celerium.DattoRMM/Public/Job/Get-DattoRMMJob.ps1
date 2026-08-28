@@ -1,19 +1,19 @@
 function Get-DattoRMMJob {
 <#
     .SYNOPSIS
-        Fetches data of the job identified by the given job Uid
+        Gets data of the job identified by the given job Uid
 
     .DESCRIPTION
-        The Get-DattoRMMJob cmdlet fetches data of the job
+        The Get-DattoRMMJob cmdlet gets data of the job
         identified by the given job Uid
 
         JobUID is returned when creating jobs via other cmdlets
 
     .PARAMETER JobUID
-        Fetches data of the job identified by the given job Uid
+        Gets data of the job identified by the given job Uid
 
     .PARAMETER Component
-        Fetches components of the job
+        Gets components of the job
 
     .PARAMETER Page
         Return items starting from the defined page number
@@ -31,12 +31,12 @@ function Get-DattoRMMJob {
     .EXAMPLE
         Get-DattoRMMJob
 
-        Prompts for a job Uid and fetches data of the job
+        Prompts for a job Uid and gets data of the job
 
     .EXAMPLE
         Get-DattoRMMJob -JobUID '123456789'
 
-        Fetches data for the specific job Id
+        Gets data for the specific job Id
 
     .EXAMPLE
         Get-DattoRMMAccountAlert -Page 2 -Max 5

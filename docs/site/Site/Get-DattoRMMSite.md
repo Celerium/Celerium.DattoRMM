@@ -11,7 +11,7 @@ title: Get-DattoRMMSite
 # Get-DattoRMMSite
 
 ## SYNOPSIS
-Fetches data of the site (including total number of devices)
+Gets data of the site (including total number of devices)
 identified by the given site Uid
 
 ## SYNTAX
@@ -21,7 +21,7 @@ Get-DattoRMMSite [-SiteUID] <String> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The Get-DattoRMMSite cmdlet fetches data of the site
+The Get-DattoRMMSite cmdlet gets data of the site
 (including total number of devices) identified by the given site Uid
 
 ## EXAMPLES
@@ -31,19 +31,19 @@ The Get-DattoRMMSite cmdlet fetches data of the site
 Get-DattoRMMSite
 ```
 
-Prompts for a site Uid and fetches data of the site
+Prompts for a site Uid and gets data of the site
 
 ### EXAMPLE 2
 ```powershell
 Get-DattoRMMSite -SiteUID '123456789'
 ```
 
-Fetches data for the specific site Id
+Gets data for the specific site Id
 
 ## PARAMETERS
 
 ### -SiteUID
-Fetches data of a  specific site identified by the given site Uid
+Gets data of a  specific site identified by the given site Uid
 
 ```yaml
 Type: String

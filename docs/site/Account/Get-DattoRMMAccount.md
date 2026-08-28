@@ -11,7 +11,7 @@ title: Get-DattoRMMAccount
 # Get-DattoRMMAccount
 
 ## SYNOPSIS
-Fetches the authenticated user's account data.
+Gets the authenticated user's account data.
 
 ## SYNTAX
 
@@ -20,7 +20,7 @@ Get-DattoRMMAccount [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The Get-DattoRMMAccount cmdlet fetches the authenticated
+The Get-DattoRMMAccount cmdlet gets the authenticated
 user's account data
 
 ## EXAMPLES
@@ -30,7 +30,7 @@ user's account data
 Get-DattoRMMAccount
 ```
 
-Fetches the authenticated user's account data
+Gets the authenticated user's account data
 
 ## PARAMETERS
 

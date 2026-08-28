@@ -46,7 +46,7 @@ Example HashTable:
 Defines the type of API method to use
 
 Allowed values:
-'GET', 'POST', 'PATCH', 'DELETE'
+'GET', 'POST', 'PUT', 'DELETE'
 
 ```yaml
 Type: String

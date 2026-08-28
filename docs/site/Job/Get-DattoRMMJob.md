@@ -11,7 +11,7 @@ title: Get-DattoRMMJob
 # Get-DattoRMMJob
 
 ## SYNOPSIS
-Fetches data of the job identified by the given job Uid
+Gets data of the job identified by the given job Uid
 
 ## SYNTAX
 
@@ -26,7 +26,7 @@ Get-DattoRMMJob -JobUID <String> [-Component] [-Page <Int32>] [-Max <Int32>] [-A
 ```
 
 ## DESCRIPTION
-The Get-DattoRMMJob cmdlet fetches data of the job
+The Get-DattoRMMJob cmdlet gets data of the job
 identified by the given job Uid
 
 JobUID is returned when creating jobs via other cmdlets
@@ -38,14 +38,14 @@ JobUID is returned when creating jobs via other cmdlets
 Get-DattoRMMJob
 ```
 
-Prompts for a job Uid and fetches data of the job
+Prompts for a job Uid and gets data of the job
 
 ### EXAMPLE 2
 ```powershell
 Get-DattoRMMJob -JobUID '123456789'
 ```
 
-Fetches data for the specific job Id
+Gets data for the specific job Id
 
 ### EXAMPLE 3
 ```powershell
@@ -57,7 +57,7 @@ Get the first defined number of items from the define page
 ## PARAMETERS
 
 ### -JobUID
-Fetches data of the job identified by the given job Uid
+Gets data of the job identified by the given job Uid
 
 ```yaml
 Type: String
@@ -72,7 +72,7 @@ Accept wildcard characters: False
 ```
 
 ### -Component
-Fetches components of the job
+Gets components of the job
 
 ```yaml
 Type: SwitchParameter

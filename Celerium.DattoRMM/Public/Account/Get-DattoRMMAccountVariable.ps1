@@ -1,10 +1,10 @@
 function Get-DattoRMMAccountVariable {
 <#
     .SYNOPSIS
-        Fetches the account variables
+        Gets the account variables
 
     .DESCRIPTION
-        The Get-DattoRMMAccountVariable cmdlet fetches the account variables
+        The Get-DattoRMMAccountVariable cmdlet gets the account variables
 
     .PARAMETER Page
         Return items starting from the defined page number

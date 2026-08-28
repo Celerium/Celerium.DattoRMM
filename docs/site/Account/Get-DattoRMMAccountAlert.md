@@ -11,7 +11,7 @@ title: Get-DattoRMMAccountAlert
 # Get-DattoRMMAccountAlert
 
 ## SYNOPSIS
-Fetches the account alerts
+Gets the account alerts
 
 ## SYNTAX
 
@@ -21,7 +21,7 @@ Get-DattoRMMAccountAlert [[-AlertType] <String>] [-Muted] [[-Page] <Int32>] [[-M
 ```
 
 ## DESCRIPTION
-The Get-DattoRMMAccountAlert cmdlet fetches the account alerts
+The Get-DattoRMMAccountAlert cmdlet gets the account alerts
 
 ## EXAMPLES
 

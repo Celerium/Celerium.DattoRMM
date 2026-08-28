@@ -1,10 +1,10 @@
 function Get-DattoRMMAccountComponent {
 <#
     .SYNOPSIS
-        Fetches the account components
+        Gets the account components
 
     .DESCRIPTION
-        The Get-DattoRMMAccountComponent cmdlet fetches the account components
+        The Get-DattoRMMAccountComponent cmdlet gets the account components
 
     .PARAMETER Page
         Return items starting from the defined page number

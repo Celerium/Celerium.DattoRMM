@@ -1,24 +1,24 @@
 function Get-DattoRMMAuditDevice {
 <#
     .SYNOPSIS
-        Fetches audit data of the generic device identified the given device Uid
+        Gets audit data of the generic device identified the given device Uid
 
     .DESCRIPTION
-        The Get-DattoRMMAuditDevice cmdlet fetches audit data of the
+        The Get-DattoRMMAuditDevice cmdlet gets audit data of the
         generic device identified the given device Uid
 
         The device class must be of type "device"
 
     .PARAMETER DeviceUID
-        Fetches audit data of the generic device identified
+        Gets audit data of the generic device identified
         the given device Uid
 
     .PARAMETER Software
-        Fetches audited software of the generic device identified
+        Gets audited software of the generic device identified
         the given device Uid
 
     .PARAMETER MacAddress
-        Fetches audit data of the generic device(s) identified by the given
+        Gets audit data of the generic device(s) identified by the given
         MAC address in format: XXXXXXXXXXXX
 
     .PARAMETER Page

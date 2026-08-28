@@ -12,7 +12,7 @@ function Invoke-DattoRMMRequest {
         Defines the type of API method to use
 
         Allowed values:
-        'GET', 'POST', 'PATCH', 'DELETE'
+        'GET', 'POST', 'PUT', 'DELETE'
 
     .PARAMETER ResourceURI
         Defines the resource uri (url) to use when creating the API call
@@ -55,7 +55,7 @@ function Invoke-DattoRMMRequest {
     [CmdletBinding(DefaultParameterSetName = 'Invoke', SupportsShouldProcess)]
     param (
         [Parameter()]
-        [ValidateSet('GET', 'PUT', 'POST', 'PATCH', 'DELETE')]
+        [ValidateSet('GET', 'POST', 'PUT', 'DELETE')]
         [string]$Method = 'GET',
 
         [Parameter(Mandatory = $true)]
